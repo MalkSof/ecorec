@@ -1,19 +1,20 @@
 <template>
   <div id="app">
     <NavComponent></NavComponent>
-    <BienvenidoComponent></BienvenidoComponent>
+    <product></product>
   </div>
 </template>
 
 <script>
 
 import NavComponent from "./components/NavComponent";
-import BienvenidoComponent from "./components/BienvenidoComponent";
+
+import Product from "./components/Product";
 
 export default {
   name: 'App',
   components: {
-    BienvenidoComponent,
+    Product,
     NavComponent
   }
 }
