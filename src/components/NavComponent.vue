@@ -1,6 +1,6 @@
 <template>
 
-    <div >
+    <div id="nav">
       <div class="row">
         <div class="col">
           <img src="logochico.png"/>
@@ -8,6 +8,7 @@
 
         </div>
         <div class="col">
+
           <div>
             <a href="Home___2.html" target="_self" class="Productos">Productos</a>
           </div>

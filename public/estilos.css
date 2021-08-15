@@ -2,6 +2,58 @@
     width: 100%;
 
 }
+.subtitulo{
+
+
+    white-space: nowrap;
+    line-height: 72px;
+    margin-top: -27px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(57,57,57,1);
+}
+.textoNormal{
+
+
+    overflow: hidden;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 13px;
+    color: rgba(0,0,0,1);
+}
+#tituloProducto{
+    left: 934px;
+    top: 457px;
+    position: absolute;
+    overflow: visible;
+    width: 175px;
+    white-space: nowrap;
+    line-height: 72px;
+    margin-top: -21px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 30px;
+    color: rgba(57,57,57,1);
+}
+#producto{
+    overflow: hidden;
+    background-image: url("FondoAzul.jpg");
+    line-height: 72px;
+    margin-top: -10px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 52px;
+    color: rgb(255, 255, 255);
+}
 #bienvenido{
     width: 100%;
     overflow: visible;
