@@ -1,23 +1,16 @@
 <template>
   <div id="app">
-    <NavComponent></NavComponent>
-    <BienvenidoComponent></BienvenidoComponent>
-    <SubNavComponent></SubNavComponent>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 
-import NavComponent from "./components/NavComponent";
-import BienvenidoComponent from "./components/BienvenidoComponent";
-import SubNavComponent from './components/SubNavComponent';
 
 export default {
   name: 'App',
   components: {
-    BienvenidoComponent,
-    NavComponent,
-    SubNavComponent
+
   }
 }
 </script>
