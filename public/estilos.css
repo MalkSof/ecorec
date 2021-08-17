@@ -7,7 +7,6 @@
 
     white-space: nowrap;
     line-height: 72px;
-    margin-top: -27px;
     text-align: left;
     font-family: Roboto;
     font-style: normal;
@@ -27,8 +26,6 @@
     color: rgba(0,0,0,1);
 }
 #tituloProducto{
-    left: 934px;
-    top: 457px;
     position: absolute;
     overflow: visible;
     width: 175px;
