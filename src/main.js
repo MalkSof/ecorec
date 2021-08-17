@@ -6,7 +6,7 @@ Vue.use(VueRouter);
 const Bar = { template: '<div>chauuuu</div>' }
 
 const routes = [
-  { path: '/producto', component: require("./components/Product").default },
+  { path: '/producto/:slug', component: require("./components/Product").default },
   { path: '/home', component: Bar }
 ]
 
