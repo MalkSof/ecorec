@@ -814,22 +814,31 @@
     font-weight: lighter;
     font-size:28px;
     color:rgba(57,57,57,1);
+    padding-bottom: 25px;
 }
 /*Fotos productos*/
 #ContIMG{
-    position: absolute;
     width: 100%;
-    height: 398px;
-    top: 1308px;
     overflow:visible;
 }
 /*Ind automotriz*/
 #Foto1_MameAuto {
-    position: absolute;
-    width: 25%;
     height: 398px;
     left: 0px;
     overflow: visible;
+    background-image: url("Foto1_MameAuto.png");
+    white-space: nowrap;
+    line-height: 52px;
+    padding-top: 300px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    color: grey;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
 }
 #Rectangle_48 {
     opacity: 0.34;
@@ -844,31 +853,38 @@
     left: 0px;
 }
 #INDUSTRIA_AUTOMOTRIZ {
-    left: 58px;
-    top: 320px;
-    position: absolute;
-    overflow: visible;
-    width: 17%;
     white-space: nowrap;
     line-height: 52px;
     margin-top: -17.5px;
+    padding-top: 58px;
     text-align: center;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 17px;
-    color: rgba(255,255,255,1);
+    color: black;
     letter-spacing: 0.5px;
     text-transform: uppercase;
+    
 }
 /*Ind farma*/
 #Foto1_MameFarma {
-    position: absolute;
-    width: 25%;;
     height: 398px;
-    left: 345px;
+    left: 0px;
     overflow: visible;
-
+    background-image: url("Foto1_MameFarma.png");
+    white-space: nowrap;
+    line-height: 52px;
+    padding-top: 300px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    color: grey;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
 }
 #Rectangle_48_b {
     opacity: 0.34;
@@ -902,11 +918,22 @@
 }
 /*Ind Elect*/
 #Foto4_MameAuto {
-    position: absolute;
-    width: 25%;
     height: 398px;
-    left: 690px;
+    left: 0px;
     overflow: visible;
+    background-image: url("Foto4_MameAuto.png");
+    white-space: nowrap;
+    line-height: 52px;
+    padding-top: 300px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    color: grey;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
 }
 #Rectangle_48_ca {
     opacity: 0.34;
@@ -940,11 +967,22 @@
 }
 /*Ind salud*/
 #Foto3_TrajeMedico {
-    position: absolute;
-    width: 25%;
     height: 398px;
-    left: 1036px;
+    left: 0px;
     overflow: visible;
+    background-image: url("Foto3_TrajeMedico.png");
+    white-space: nowrap;
+    line-height: 52px;
+    padding-top: 300px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    color: grey;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    background-repeat: no-repeat;    
 }
 #Rectangle_48_cb {
     opacity: 0.34;
@@ -978,32 +1016,18 @@
 }
 /*btn ver Prod*/
 #Group_36 {
-    position: absolute;
     width: 18%;
     height: 54px;
     left: 597px;
     top: 1826px;
     overflow: visible;
 }
-#Backgound {
-    fill: rgba(26,158,217,1);
-}
+
 .Backgound {
-    position: absolute;
-    overflow: visible;
-    width: 100%;
-    height: 54px;
-    left: 0px;
-    top: 0px;
     background-color: rgba(26,158,217,1);
     border-radius: 27px;
 }
 #Ver_productos {
-    left: 27px;
-    top: 15px;
-    position: absolute;
-    overflow: visible;
-    width: 70%;
     white-space: nowrap;
     line-height: 22px;
     margin-top: -1.5px;
@@ -1016,11 +1040,6 @@
 }
 /*confiaron*/
 #Confiaron_en_nosotros {
-    left: 345px;
-    top: 1987px;
-    position: absolute;
-    overflow: visible;
-    width: 678px;
     height: 81px;
     text-align: center;
     font-family: Roboto;
@@ -1028,4 +1047,789 @@
     font-weight: lighter;
     font-size: 44px;
     color: rgba(26,158,217,1);
+}
+/*Img conf*/
+#Group_56 {
+    width: 100%;
+}
+.confiamos{
+    margin-top: 40px;
+}
+#John-Richmond-Logo {
+    position: absolute;
+    width: 200px;
+    height: 112px;
+    left: 465px;
+    top: 0px;
+    overflow: visible;
+}
+#Volkswagen_logo_2019svg {
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: 763px;
+    top: 26px;
+    overflow: visible;
+}
+#n_024px-Ford_Motor_Company_Log {
+    position: absolute;
+    width: 160px;
+    height: 61px;
+    left: 0px;
+    top: 26px;
+    overflow: visible;
+}
+#n_280px-Pfizersvg {
+    position: absolute;
+    width: 129px;
+    height: 77px;
+    left: 258px;
+    top: 15px;
+    overflow: visible;
+}
+/*FORM*/
+#Group_54 {
+    width: 100%;
+    height: 717px;
+    background-color: rgba(241,241,241,1);
+
+}
+#input {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(149,152,154,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.input {
+    width: 100%;
+    height: 129px;
+    left: 50.338px;
+    top: 405px;
+}
+#Tu_mensaje {
+    left: 80.109px;
+    top: 418.978px;
+    
+    overflow: visible;
+    width: 90px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(183,183,183,1);
+}
+#Mensaje {
+    width: 100%;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: rgba(57,57,57,1);
+}
+#input_eh {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(149,152,154,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.input_eh {
+    width: 100%;
+    height: 50px;
+    left: 558px;
+    top: 303px;
+    border-radius: 4px;
+}
+#n_234567890 {
+    left: 580px;
+    top: 315.948px;
+    
+    overflow: visible;
+    width: 85px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(183,183,183,1);
+}
+#Telfono {
+    width: 100%;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: rgba(57,57,57,1);
+}
+#input_ek {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(149,152,154,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.input_ek {
+    width: 100%;
+    height: 50px;
+    left: 50.338px;
+    top: 303px;
+    border-radius: 4px;
+}
+#mailejemplocom {
+    left: 82.025px;
+    top: 315.948px;
+    
+    overflow: visible;
+    width: 130px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(183,183,183,1);
+}
+#Email {
+    width: 100%;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: rgba(57,57,57,1);
+}
+#input_en {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(149,152,154,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.input_en {
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+}
+#Apellido {
+    overflow: visible;
+    width: 55px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(183,183,183,1);
+}
+#Apellido_ep {
+    width: 100%;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: rgba(57,57,57,1);
+}
+#input_eq {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(149,152,154,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.input_eq {
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+}
+#Nombre {
+    left: 81.087px;
+    top: 212.984px;
+    
+    overflow: visible;
+    width: 55px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(183,183,183,1);
+}
+#Nombre_es {
+    width: 100%;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: rgba(57,57,57,1);
+}
+#Contctanos {
+    left: 50.941px;
+    top: 77.188px;
+    
+    overflow: visible;
+    width: 177px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    color: rgba(57,57,57,1);
+}
+#Group_37 {
+    
+    width: 173px;
+    height: 54px;
+    left: 1133px;
+    top: 587px;
+    overflow: visible;
+}
+#Backgound_ev {
+    fill: rgba(255,255,255,1);
+}
+.Backgound_ev {
+    
+    overflow: visible;
+    width: 173px;
+    height: 54px;
+    left: 0px;
+    top: 0px;
+}
+.botonEnviar{
+    
+    
+    height: 54px;
+    left: 1133px;
+    top: 587px;
+    overflow: visible;
+    background-color: rgba(255,255,255,1);
+    border-radius: 27px;
+}
+#Enviar {
+    left: 1133px;
+    top: 587px;
+    
+    overflow: visible;
+    width: 173px;
+    height: 54px;
+    white-space: nowrap;
+    line-height: 22px;
+    margin-top: -1.5px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    color: rgba(57,57,57,1);
+    background-color: rgba(255,255,255,1);
+    border-radius: 27px;
+}
+/*SubNav*/
+
+
+#Capa_2_c {
+    width: 100%;
+    height: 340.352px;
+    left: 0px;
+    top: 3004.647px;
+    background-color: rgba(57,82,163,1);
+}
+#Path_66 {
+    fill: rgba(255,255,255,1);
+}
+.Path_66 {
+    overflow: visible;
+    width: 63.773px;
+    height: 51.356px;
+    left: 87.696px;
+    top: 69.544px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Servicios {
+    left: 157.501px;
+    top: 76.833px;
+    overflow: visible;
+    width: 54px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgba(255,255,255,1);
+}
+#Path_67 {
+    fill: rgba(109,111,113,1);
+}
+.Path_67 {
+    overflow: visible;
+    width: 22.041px;
+    height: 22.521px;
+    left: 93.77px;
+    top: 94.321px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Path_68 {
+    fill: rgba(89,90,92,1);
+}
+.Path_68 {
+    overflow: visible;
+    width: 24.907px;
+    height: 18.569px;
+    left: 122.097px;
+    top: 71.813px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Path_69 {
+    fill: rgba(109,111,113,1);
+}
+.Path_69 {
+    overflow: visible;
+    width: 13.34px;
+    height: 12.062px;
+    left: 133.663px;
+    top: 75.008px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Path_70 {
+    fill: rgba(33,46,106,1);
+}
+.Path_70 {
+    overflow: visible;
+    width: 14.853px;
+    height: 21.797px;
+    left: 135.267px;
+    top: 91.98px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Path_71 {
+    fill: rgba(57,82,163,1);
+}
+.Path_71 {
+    overflow: visible;
+    width: 23.147px;
+    height: 9.033px;
+    left: 126.491px;
+    top: 86.174px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Path_72 {
+    fill: rgba(35,103,147,1);
+}
+.Path_72 {
+    overflow: visible;
+    width: 14.853px;
+    height: 21.791px;
+    left: 113.763px;
+    top: 90.722px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Path_73 {
+    fill: rgba(11,158,218,1);
+}
+.Path_73 {
+    overflow: visible;
+    width: 23.225px;
+    height: 9.005px;
+    left: 114.246px;
+    top: 109.304px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Path_74 {
+    fill: rgba(89,90,92,1);
+}
+.Path_74 {
+    overflow: visible;
+    width: 29.654px;
+    height: 27.003px;
+    left: 89.339px;
+    top: 71.813px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_29 {
+    fill: rgba(255,255,255,1);
+}
+.Rectangle_29 {
+    overflow: visible;
+    width: 0.391px;
+    height: 52.057px;
+    left: 154.019px;
+    top: 68.37px;
+}
+#EcoRec {
+    left: 157.501px;
+    top: 89.913px;
+    overflow: visible;
+    width: 45px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgba(255,255,255,1);
+}
+#infoserviciosecoreccomar {
+    left: 631.921px;
+    top: 223.146px;
+    overflow: visible;
+    width: 201px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(255,255,255,1);
+}
+#Rectangle_30 {
+    fill: transparent;
+}
+.Rectangle_30 {
+    overflow: visible;
+    width: 35.744px;
+    height: 35.483px;
+    left: 985.705px;
+    top: 179.552px;
+}
+#Group_42 {
+    width: 33.931px;
+    height: 57.117px;
+    left: 165.104px;
+    top: 159.627px;
+    overflow: visible;
+}
+#Group_44 {
+    width: 54.769px;
+    height: 54.769px;
+    left: 95.768px;
+    top: 160.774px;
+    overflow: visible;
+}
+#Home_dk {
+    left: 362.73px;
+    top: 69.974px;
+    overflow: visible;
+    width: 44px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(255,255,255,1);
+}
+#Servicios_dl {
+    left: 362.73px;
+    top: 104.036px;
+    overflow: visible;
+    width: 66px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    color: rgba(255,255,255,1);
+}
+#Trazabilidad {
+    left: 362.821px;
+    top: 138.084px;
+    overflow: visible;
+    width: 85px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(255,255,255,1);
+}
+#Novedades {
+    left: 362.73px;
+    top: 172.145px;
+    overflow: visible;
+    width: 85px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    color: rgba(255,255,255,1);
+}
+#Contacto_do {
+    left: 362.73px;
+    top: 206.207px;
+    overflow: visible;
+    width: 65px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(255,255,255,1);
+}
+#Group_45 {
+    width: 9.454px;
+    height: 13.379px;
+    left: 336.571px;
+    top: 73.613px;
+    overflow: visible;
+}
+#Group_46 {
+    width: 9.454px;
+    height: 13.392px;
+    left: 336.571px;
+    top: 108.913px;
+    overflow: visible;
+}
+#Group_47 {
+    width: 9.454px;
+    height: 13.392px;
+    left: 336.571px;
+    top: 143.235px;
+    overflow: visible;
+}
+#Group_48 {
+    width: 9.454px;
+    height: 13.392px;
+    left: 336.571px;
+    top: 175.953px;
+    overflow: visible;
+}
+#Group_49 {
+    width: 9.454px;
+    height: 13.392px;
+    left: 336.571px;
+    top: 210.067px;
+    overflow: visible;
+}
+#Dir {
+    left: 633.225px;
+    top: 72.022px;
+    overflow: visible;
+    width: 23px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    color: rgba(255,255,255,1);
+}
+#eccin {
+    left: 653.764px;
+    top: 72.022px;
+    overflow: visible;
+    width: 49px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    color: rgba(255,255,255,1);
+}
+#Roque_Senz_pea_4027_-_B1751BMC {
+    left: 633.225px;
+    top: 102.64px;
+    overflow: visible;
+    width: 230px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(255,255,255,1);
+}
+#V {
+    left: 633.225px;
+    top: 126.152px;
+    overflow: visible;
+    width: 11px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(255,255,255,1);
+}
+#illa_Insuperable {
+    left: 642.875px;
+    top: 128.76px;
+    overflow: visible;
+    width: 94px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(255,255,255,1);
+}
+#Pr {
+    left: 633.225px;
+    top: 154.88px;
+    overflow: visible;
+    width: 14px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(255,255,255,1);
+}
+#ov {
+    left: 647.126px;
+    top: 154.88px;
+    overflow: visible;
+    width: 16px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(255,255,255,1);
+}
+#n_de_Buenos_Air {
+    left: 662.787px;
+    top: 154.88px;
+    overflow: visible;
+    width: 94px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(255,255,255,1);
+}
+#es {
+    left: 769.757px;
+    top: 154.88px;
+    overflow: visible;
+    width: 14px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(255,255,255,1);
+}
+#Ar {
+    left: 633.225px;
+    top: 181px;
+    overflow: visible;
+    width: 15px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(255,255,255,1);
+}
+#gentina {
+    left: 648.873px;
+    top: 181px;
+    overflow: visible;
+    width: 48px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(255,255,255,1);
+}
+#Group_50 {
+    width: 9.441px;
+    height: 13.627px;
+    left: 607.066px;
+    top: 75.686px;
+    overflow: visible;
+}
+#Llamenos {
+    left: 982.706px;
+    top: 69.414px;
+    overflow: visible;
+    width: 68px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(255,255,255,1);
+}
+#n_411_4652_4230__4454_5877 {
+    left: 982.706px;
+    top: 103.475px;
+    overflow: visible;
+    width: 213px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(255,255,255,1);
+}
+#n_411_4655_1865 {
+    left: 982.706px;
+    top: 137.536px;
+    overflow: visible;
+    width: 124px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(255,255,255,1);
+}
+#Group_51 {
+    width: 9.441px;
+    height: 13.627px;
+    left: 959.155px;
+    top: 76.99px;
+    overflow: visible;
+}
+#Group_53 {
+    width: 35.47px;
+    height: 35.209px;
+    left: 985.848px;
+    top: 179.696px;
+    overflow: visible;
 }

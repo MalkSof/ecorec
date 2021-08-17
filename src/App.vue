@@ -2,6 +2,7 @@
   <div id="app">
     <NavComponent></NavComponent>
     <BienvenidoComponent></BienvenidoComponent>
+    <SubNavComponent></SubNavComponent>
   </div>
 </template>
 
@@ -9,12 +10,14 @@
 
 import NavComponent from "./components/NavComponent";
 import BienvenidoComponent from "./components/BienvenidoComponent";
+import SubNavComponent from './components/SubNavComponent';
 
 export default {
   name: 'App',
   components: {
     BienvenidoComponent,
-    NavComponent
+    NavComponent,
+    SubNavComponent
   }
 }
 </script>
