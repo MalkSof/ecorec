@@ -1,21 +1,16 @@
 <template>
   <div id="app">
-    <NavComponent></NavComponent>
-    <product></product>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 
-import NavComponent from "./components/NavComponent";
-
-import Product from "./components/Product";
 
 export default {
   name: 'App',
   components: {
-    Product,
-    NavComponent
+
   }
 }
 </script>

@@ -1,5 +1,6 @@
 <template>
   <div>
+    <NavComponent></NavComponent>
     <div id="producto">Productos</div>
     <div class="container">
 
@@ -59,6 +60,7 @@
             Caracteristicas
         </div>
         <div class="textoNormal">
+          {{myJson}}
 
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
           et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
@@ -75,8 +77,20 @@
 </template>
 
 <script>
+
+import json from '/src/data.json'
+import NavComponent from "./NavComponent";
 export default {
-  name: "Product"
+  name: "Product",
+  components: {
+    NavComponent
+  },
+    data(){
+      return{
+        myJson: json
+      }
+    }
+
 }
 </script>
 
