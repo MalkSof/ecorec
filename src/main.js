@@ -7,7 +7,7 @@ const Bar = { template: '<div>chauuuu</div>' }
 
 const routes = [
   { path: '/producto/:slug', component: require("./components/Product").default },
-  { path: '/home', component: Bar }
+  { path: '/', component: Bar }
 ]
 
 // 3. Create the router instance and pass the `routes` option
