@@ -3,11 +3,10 @@ import App from './App.vue'
 import VueRouter from "vue-router";
 
 Vue.use(VueRouter);
-const Bar = { template: '<div>chauuuu</div>' }
 
 const routes = [
-  { path: '/producto/:slug', component: require("./components/Product").default },
-  { path: '/', component: Bar }
+  { path: '/producto/:slug', component: require("./pages/Product").default },
+  { path: '/', component: require("./pages/Home").default  }
 ]
 
 // 3. Create the router instance and pass the `routes` option

@@ -48,9 +48,8 @@
       </div>
       <div class="col-sm-5 col-12">
         <img id="FOTOA2" style="width: 100%" src="FOTOA2.png" srcset="FOTOA2.png 1x, FOTOA2@2x.png 2x">
-        <img id="iStock-1222774112"  src="iStock-1222774112.png" srcset="iStock-1222774112.png 1x, iStock-1222774112@2x.png 2x">
-        <img id="iStock-1213012098" src="iStock-1213012098.png" srcset="iStock-1213012098.png 1x, iStock-1213012098@2x.png 2x">
-        <img id="iStock-1310874229" src="iStock-1310874229.png" srcset="iStock-1310874229.png 1x, iStock-1310874229@2x.png 2x">
+
+        <img width="70px" v-for="img in productoSeleccionado.imagenes"   :src="img" :key="img" />
       </div>
       <div class="col-sm-5 col-12">
         <div id="tituloProducto">
@@ -77,7 +76,7 @@
 <script>
 
 import json from '/src/data.json'
-import NavComponent from "./NavComponent";
+import NavComponent from "../components/NavComponent";
 export default {
   name: "Product",
   components: {

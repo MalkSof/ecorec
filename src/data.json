@@ -1,12 +1,17 @@
 {
   "productos":
   {
-      "equipo-area-estéril-pharma": {
+      "equipo-area-esteril-pharma": {
           "titulo": "Equipo Área Estéril Pharma",
           "descri" : "Confeccionado de polyester con hilado de carbono al 2%. Este tipo de prenda con características antiestática se utiliza en cabinas limpias de producción pharma. ",
           "ventaja": "Hilado de carbono: Material antiestático. No desprende fibras. \nTesteado bajo normas ASTM.\nUtilizado globalmente. Resistencia a ciclos de lavado y esterilizado.\nVariedad de talles y colores.\n",
-          "masinfo": "Las propiedades antiestáticas de este equipo hacen que sea el estilo de prenda ideal para utilizar en áreas limpias de la industria farmacéutica. Estas prendas no desprenden fibras que puedan interferir con su producción, al tiempo que generan un ambiente más limpio, con menor cantidad de partículas en el mismo.  \nLas prendas de Ecorec Productos pueden ser utilizadas desde Áreas controladas clase A a D. Nuestro diseño ofrece comodidad y seguridad al usuario. A su vez contamos con variedad de talles y colores.  \n"
-
+          "masinfo": "Las propiedades antiestáticas de este equipo hacen que sea el estilo de prenda ideal para utilizar en áreas limpias de la industria farmacéutica. Estas prendas no desprenden fibras que puedan interferir con su producción, al tiempo que generan un ambiente más limpio, con menor cantidad de partículas en el mismo.  \nLas prendas de Ecorec Productos pueden ser utilizadas desde Áreas controladas clase A a D. Nuestro diseño ofrece comodidad y seguridad al usuario. A su vez contamos con variedad de talles y colores.  \n",
+          "imagenes" : {
+            "1": "/Cubreboca/Foto_Barbijo1.png",
+            "2": "/Cubreboca/Foto_Barbijo2.jpeg",
+            "3": "/Cubreboca/Foto_Barbijo3.jpeg",
+            "4": "/Cubreboca/Foto_Barbijo4.jpg"
+          }
       }
   }
 
