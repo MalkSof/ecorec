@@ -47,9 +47,8 @@
         </div>
       </div>
       <div class="col-sm-5 col-12">
-        <img id="FOTOA2" style="width: 100%" src="FOTOA2.png" srcset="FOTOA2.png 1x, FOTOA2@2x.png 2x">
-        {{imagenDefault}}
-        <img width="70px" v-for="img in productoSeleccionado.imagenes"   :src="img" :key="img" />
+        <img id="FOTOA2" style="width: 100%" :src="imagenDefault">
+        <img width="70px" v-for="(img,key) in productoSeleccionado.imagenes" @click="establecerImagen(key)"   :src="img" :key="img" />
       </div>
       <div class="col-sm-5 col-12">
         <div id="tituloProducto">
@@ -95,6 +94,12 @@ export default {
         imagenDefault: ''
       }
     },
+  methods: {
+    establecerImagen(key)
+    {
+      this.imagenDefault = this.productoSeleccionado["imagenes"][key];
+    }
+  },
   created() {
     this.products =  this.myJson['productos'];
     this.productoSeleccionado = this.products[this.$route.params.slug];
