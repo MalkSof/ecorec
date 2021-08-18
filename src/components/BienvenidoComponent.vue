@@ -66,25 +66,33 @@
     </div>
     <div id="ContIMG">
       <div class="row">
-          <div class="col-md-6 col-12">
+          <div class="col-md-3 col-12">
 	          <div id="Foto1_MameAuto">
-	            INDUSTRIA AUTOMOTRIZ
+	            <div class="sombra">
+                INDUSTRIA AUTOMOTRIZ
+              </div>
             </div>
           </div>
-          <div class="col-md-6 col-12">
-          <div id="Foto1_MameFarma">
-	          INDUSTRIA FARMA
+          <div class="col-md-3 col-12">
+            <div id="Foto1_MameFarma">
+	              <div class="sombra">
+                INDUSTRIA FARMA
+                </div>
+            </div>
           </div>
+          <div class="col-md-3 col-12">
+            <div id="Foto4_MameAuto">
+	            <div class="sombra">  
+                INDUSTRIA ELECTRÓNICA
+              </div>
+            </div>
           </div>
-          <div class="col-md-6 col-12">
-          <div id="Foto4_MameAuto">
-	          INDUSTRIA ELECTRÓNICA
-          </div>
-          </div>
-          <div class="col-md-6 col-12">
-          <div id="Foto3_TrajeMedico">
-	          INDUSTRIA SALUD
-          </div>
+          <div class="col-md-3 col-12">
+            <div id="Foto3_TrajeMedico">
+	            <div class="sombra">
+               INDUSTRIA SALUD
+              </div>
+            </div>
           </div>
       </div>
     </div>

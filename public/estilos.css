@@ -878,20 +878,23 @@
     background-image: url("Foto1_MameAuto.png");
     white-space: nowrap;
     line-height: 52px;
-    padding-top: 300px;
     text-align: center;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 17px;
-    color: grey;
+    color:white;
     letter-spacing: 0.5px;
     text-transform: uppercase;
     background-repeat: no-repeat;
+    background-position: center;
 }
-#Rectangle_48 {
-    opacity: 0.34;
-    fill: rgba(0,0,0,1);
+.sombra{
+    height: 398px;
+    overflow: visible;
+    padding-top: 300px;
+    background-color: black;
+    opacity: 0.6;
 }
 .Rectangle_48 {
     mix-blend-mode: multiply;
@@ -924,16 +927,16 @@
     background-image: url("Foto1_MameFarma.png");
     white-space: nowrap;
     line-height: 52px;
-    padding-top: 300px;
     text-align: center;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 17px;
-    color: grey;
+    color:white;
     letter-spacing: 0.5px;
     text-transform: uppercase;
     background-repeat: no-repeat;
+    background-position: center;
 }
 #Rectangle_48_b {
     opacity: 0.34;
@@ -973,16 +976,16 @@
     background-image: url("Foto4_MameAuto.png");
     white-space: nowrap;
     line-height: 52px;
-    padding-top: 300px;
     text-align: center;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 17px;
-    color: grey;
+    color:white;
     letter-spacing: 0.5px;
     text-transform: uppercase;
     background-repeat: no-repeat;
+    background-position: center;
 }
 #Rectangle_48_ca {
     opacity: 0.34;
@@ -1022,16 +1025,16 @@
     background-image: url("Foto3_TrajeMedico.png");
     white-space: nowrap;
     line-height: 52px;
-    padding-top: 300px;
     text-align: center;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 17px;
-    color: grey;
+    color:white;
     letter-spacing: 0.5px;
     text-transform: uppercase;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;   
+    background-position: center; 
 }
 #Rectangle_48_cb {
     opacity: 0.34;
