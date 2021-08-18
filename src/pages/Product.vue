@@ -48,7 +48,7 @@
       </div>
       <div class="col-sm-5 col-12">
         <img id="FOTOA2" style="width: 100%" src="FOTOA2.png" srcset="FOTOA2.png 1x, FOTOA2@2x.png 2x">
-
+        {{imagenDefault}}
         <img width="70px" v-for="img in productoSeleccionado.imagenes"   :src="img" :key="img" />
       </div>
       <div class="col-sm-5 col-12">
@@ -67,8 +67,12 @@
         </div>
       </div>
     </div>
-
-      {{productoSeleccionado}}
+      {{imagenDefault}}
+    <div class="row">
+        <a target="_blank" v-for="(pro,key) in products " :href="'#/producto/' + key" :key="key" >
+          {{key}}
+        </a>
+    </div>
     </div>
   </div>
 </template>
@@ -87,12 +91,14 @@ export default {
 
         myJson: json,
         productoSeleccionado: [],
-        products : []
+        products : [],
+        imagenDefault: ''
       }
     },
   created() {
-    this.products =  this.myJson;
-    this.productoSeleccionado = this.products['productos'][this.$route.params.slug];
+    this.products =  this.myJson['productos'];
+    this.productoSeleccionado = this.products[this.$route.params.slug];
+    this.imagenDefault = this.productoSeleccionado["imagenes"][1];
     console.log( this.$route.params.slug);
   }
 
