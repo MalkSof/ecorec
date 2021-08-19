@@ -1,10 +1,15 @@
 <template>
   <div>
     <NavComponent></NavComponent>
-    <div id="producto">Productos</div>
+    <br>
+    <div id="producto">
+    <br>
+      Productos
+    <br>
+    </div>
     <div class="container">
 
-
+  <br>
     <div class="row">
       <div class="col-sm-2 col-12">
         <div class="accordion" id="accordionExample">
@@ -64,13 +69,37 @@
           <br>
           {{productoSeleccionado.descri}}
         </div>
+        <div class="subtitulo">
+          Ventajas
+        </div>
+        <div class="textoNormal">
+          <br>
+          {{productoSeleccionado.ventaja}}
+        </div>
       </div>
     </div>
-      {{imagenDefault}}
+      <div class="row">
+        <div class="col-8">
+          <div class="tituloRelacionado">
+              Informacion relacionada
+          </div>
+        </div>
+        <div class="textoNormal">
+          <br>
+          {{productoSeleccionado.masinfo}}
+        </div>
+        <div class="tituloRelacionado">
+         Productos Relacionados
+        </div>
+      </div>
     <div class="row">
-        <a target="_blank" v-for="(pro,key) in products " :href="'#/producto/' + key" :key="key" >
+      <div class="col-md-2 col-6" v-for="(pro,key) in products " :key="key" >
+        <a   target="_blank" :href="'#/producto/' + key" >
+        <img  src="iStock-1128110883.png" />
           {{key}}
         </a>
+      </div>
+
     </div>
     </div>
   </div>
