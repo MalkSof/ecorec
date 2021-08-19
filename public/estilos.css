@@ -1142,7 +1142,7 @@
 /*FORM*/
 #Group_54 {
     width: 100%;
-    height: 717px;
+    padding: 20px;
     background-color: rgba(241,241,241,1);
 
 }
@@ -1884,4 +1884,10 @@
     left: 985.848px;
     top: 179.696px;
     overflow: visible;
+}
+
+.footer{
+    width: 100%;
+    height: 340px;
+    background-color: rgba(57,82,163,1);
 }
