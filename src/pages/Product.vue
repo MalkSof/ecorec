@@ -1,10 +1,15 @@
 <template>
   <div>
     <NavComponent></NavComponent>
-    <div id="producto">Productos</div>
+    <br>
+    <div id="producto">
+    <br>
+      Productos
+    <br>
+    </div>
     <div class="container">
 
-
+  <br>
     <div class="row">
       <div class="col-sm-2 col-12">
         <div class="accordion" id="accordionExample">
@@ -47,9 +52,8 @@
         </div>
       </div>
       <div class="col-sm-5 col-12">
-        <img id="FOTOA2" style="width: 100%" src="FOTOA2.png" srcset="FOTOA2.png 1x, FOTOA2@2x.png 2x">
-
-        <img width="70px" v-for="img in productoSeleccionado.imagenes"   :src="img" :key="img" />
+        <img id="FOTOA2" style="width: 100%" :src="imagenDefault">
+        <img width="70px" v-for="(img,key) in productoSeleccionado.imagenes" @click="establecerImagen(key)"   :src="img" :key="img" />
       </div>
       <div class="col-sm-5 col-12">
         <div id="tituloProducto">
@@ -65,10 +69,38 @@
           <br>
           {{productoSeleccionado.descri}}
         </div>
+        <div class="subtitulo">
+          Ventajas
+        </div>
+        <div class="textoNormal">
+          <br>
+          {{productoSeleccionado.ventaja}}
+        </div>
       </div>
     </div>
+      <div class="row">
+        <div class="col-8">
+          <div class="tituloRelacionado">
+              Informacion relacionada
+          </div>
+        </div>
+        <div class="textoNormal">
+          <br>
+          {{productoSeleccionado.masinfo}}
+        </div>
+        <div class="tituloRelacionado">
+         Productos Relacionados
+        </div>
+      </div>
+    <div class="row">
+      <div class="col-md-2 col-6" v-for="(pro,key) in products " :key="key" >
+        <a   target="_blank" :href="'#/producto/' + key" >
+        <img  src="iStock-1128110883.png" />
+          {{key}}
+        </a>
+      </div>
 
-      {{productoSeleccionado}}
+    </div>
     </div>
   </div>
 </template>
@@ -87,12 +119,20 @@ export default {
 
         myJson: json,
         productoSeleccionado: [],
-        products : []
+        products : [],
+        imagenDefault: ''
       }
     },
+  methods: {
+    establecerImagen(key)
+    {
+      this.imagenDefault = this.productoSeleccionado["imagenes"][key];
+    }
+  },
   created() {
-    this.products =  this.myJson;
-    this.productoSeleccionado = this.products['productos'][this.$route.params.slug];
+    this.products =  this.myJson['productos'];
+    this.productoSeleccionado = this.products[this.$route.params.slug];
+    this.imagenDefault = this.productoSeleccionado["imagenes"][1];
     console.log( this.$route.params.slug);
   }
 

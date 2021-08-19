@@ -14,9 +14,22 @@
     font-size: 18px;
     color: rgba(57,57,57,1);
 }
+
+.tituloRelacionado{
+
+
+    overflow: visible;
+    white-space: nowrap;
+    line-height: 72px;
+    margin-top: -27px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(26,158,217,1);
+}
 .textoNormal{
-
-
     overflow: hidden;
     text-align: left;
     font-family: Roboto;
