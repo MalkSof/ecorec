@@ -2,10 +2,12 @@
   <div>
     <div id="bienvenido">
       <div id="Bienvenido_a_productos_ECOREC">
-        Bienvenido a productos ECOREC
+          <div class="sombraBien">
+          Bienvenido a productos ECOREC
+          </div>
       </div>
     </div>
-    <div style="top: 450px;">
+    <div style="padding: 30px;">
       <div id="Lorem_ipsum">
         Lorem ipsum
       </div>
