@@ -3,14 +3,14 @@
         <div class="footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3 col-12">
+                    <div class="col-md-3 col-12" style="margin-top: 20px;">
                         <div>
-                            <img src="logoFooter.png">
+                            <img src="logoFooter.png" style="padding: 20px;">
                         </div>
                         <img id="Group_44" class="imag" src="Group_44.png">
                         <img id="Group_42" class="imag" src="Group_42.png">
                     </div>
-                    <div class="col-md-3 col-12"> 
+                    <div class="col-md-3 col-12" style="margin-top: 20px;"> 
                         <div class="textoTitulosFoot">
                             <img id="Group_45" src="Group_45.png">
                             Home
@@ -32,7 +32,7 @@
                             Contacto
                         </div>
                     </div>
-                    <div class="col-md-3 col-12">
+                    <div class="col-md-3 col-12" style="margin-top: 20px;">
                         <div class="textoTitulosFoot">
                             <img id="Group_45" src="Group_45.png">
                             Direccion
@@ -53,7 +53,7 @@
                             info@serviciosecorec.com.ar
                         </div>
                     </div>
-                    <div class="col-md-3 col-12" style="text-align: left;">
+                    <div class="col-md-3 col-12" style="text-align: left; margin-top: 20px;">
                         <div class="textoTitulosFoot">
                             <img id="Group_45" src="Group_45.png">
                             Llamenos
