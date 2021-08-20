@@ -9,10 +9,10 @@
     </div>
     <div style="padding: 30px;">
       <div id="Lorem_ipsum">
-        Lorem ipsum
+        Bienvenidos a Ecorec Productos.
       </div>
       <div id="Lorem_ipsum_dolor_sit_amet_con">
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet
+        Somos una empresa con 40 años de trayectoria. Ofrecemos indumentaria de trabajo, incluidas aquellas prendas destinadas a salas limpias de diferentes industrias. A su vez ofrecemos diferentes productos para salas blancas, para la higiene en general y la protección personal de diferentes sectores.  
       </div>
     </div>
     <div id="rect_1">

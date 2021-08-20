@@ -1568,18 +1568,10 @@
     top: 179.552px;
 }
 #Group_42 {
-    width: 33.931px;
-    height: 57.117px;
-    left: 165.104px;
-    top: 159.627px;
-    overflow: visible;
+padding: 5px;
 }
 #Group_44 {
-    width: 54.769px;
-    height: 54.769px;
-    left: 95.768px;
-    top: 160.774px;
-    overflow: visible;
+    padding: 5px;
 }
 #Home_dk {
     left: 362.73px;
@@ -1887,10 +1879,10 @@
 
 .footer{
     width: 100%;
-    height: 340px;
     background-color: rgba(57,82,163,1);
+    padding: 30px;
 }
-.textoFoot{
+.textoTitulosFoot{
     white-space: nowrap;
     font-family: "Segoe UI";
     font-style: normal;
@@ -1899,4 +1891,16 @@
     color: rgb(255, 255, 255);
     padding: 5px;
     text-align: left;
+}
+.textoDirec{
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(255,255,255,1);
+}
+.imag{
+    padding: 5px;
 }
