@@ -20,7 +20,7 @@
           <div class="row">
             <div class="col-md-4 col-12">
                 <div class="margen">
-                  <div style="margin-top: 10px;">
+                  <div style="margin-top: 40px; height: 80px">
                       <div>
                           <img src="envios.png">
                       </div>
@@ -34,7 +34,7 @@
                 </div>
             </div>
             <div class="col-md-4 col-12">
-                <div>
+                <div style="margin-top: 40px;  height: 80px">
                     <img src="pagos.png">
                 </div>
                 <div id="Pagos">
@@ -45,26 +45,31 @@
                 </div>
             </div>
             <div class="col-md-4 col-12">
-                <div>
+                <div style="margin-top: 40px;  height: 80px">
                   <img src="atencion.png">
                 </div>
-                <div id="Atencin">
+                <div id="Pagos">
                     Atención
                 </div>
                 <div id="Lorem_ipsum_dolor_sit_amet_con_bh">
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                 </div>
             </div>
+
         </div>
+        <br>
       </div>
     </div>
     <div>
+      <br>
+      <br>
       <div id="Nuestros_prod">
         Nuestros productos
       </div>
       <div id="Seleccione">
         Seleccione su industria de interés
       </div>
+      <br>
     </div>
     <div id="ContIMG">
       <div class="row">
@@ -105,7 +110,9 @@
           <a href="Home___2.html" target="_self" style="text-decoration: none;">
               <div class="Backgound">
                   <div id="Ver_productos">
+
                       Ver productos
+                    <br>
                   </div>
               </div>
           </a>
@@ -135,13 +142,17 @@
         </div>
     </div>
     <div id="Group_54">
-        <div id="Contctanos">
-            Contáctanos
-        </div>
+
         <form action="">
           <div class="container">
             <div class="row">
+              <div class="col-md-12 col-12"  id="Contctanos">
+                Contáctanos
+              </div>
+            </div>
+            <div class="row">
                 <div class="col-md-6 col-12">
+
                     <label for="nombre" id="Nombre_es">Nombre</label>
                       
                     <input type="text" class="input_eq" name="nombre" placeholder=" Nombre"><br><br>
@@ -164,10 +175,11 @@
                     <input type="text" class="input_eh" name="telfono" placeholder=" 1234567890"><br><br>
                 </div>
               </div>
+            <label for="mensaje" id="Mensaje">Mensaje</label>
+            <input type="text" class="input" name="mensaje" placeholder=" Tu mensaje..."><br><br>
+            <input type="submit" id="Enviar" value="Enviar">
           </div>
-          <label for="mensaje" id="Mensaje">Mensaje</label>
-          <input type="text" class="input" name="mensaje" placeholder=" Tu mensaje..."><br><br>
-          <input type="submit" id="Enviar" value="Enviar">
+
         </form>
       </div>
   </div>
