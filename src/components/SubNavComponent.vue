@@ -1,5 +1,48 @@
 <template>
     <div>
+      <div id="Group_54">
+
+      <form action="">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-12"  id="Contctanos">
+              Contáctanos
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-12">
+
+              <label for="nombre" id="Nombre_es">Nombre</label>
+
+              <input type="text" class="input_eq" name="nombre" placeholder=" Nombre"><br><br>
+            </div>
+            <div class="col-md-6 col-12">
+              <label for="apellido" id="Apellido_ep">Apellido</label>
+
+              <input type="text" class="input_en" name="apellido" placeholder=" Apellido"><br><br>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-12">
+              <label for="email" id="Email">Email</label>
+
+              <input type="email" class="input_ek" name="email" placeholder=" mail@ejemplo.com"><br><br>
+            </div>
+            <div class="col-md-6 col-12">
+              <label for="telfono" id="Telfono">Telefono</label>
+
+              <input type="text" class="input_eh" name="telfono" placeholder=" 1234567890"><br><br>
+            </div>
+          </div>
+          <label for="mensaje" id="Mensaje">Mensaje</label>
+          <input type="text" class="input" name="mensaje" placeholder=" Tu mensaje..."><br><br>
+        </div>
+        <div style="text-align: end;">
+          <input type="submit" id="Enviar" value="Enviar">
+        </div>
+
+      </form>
+    </div>
         <div class="footer">
             <div class="container">
                 <div class="row">
