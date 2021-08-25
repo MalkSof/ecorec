@@ -125,18 +125,18 @@
     </div>
     <div id="Group_56">
       <div class="container">
-        <div class="row">
-            <div class="col-md-3 col-12">
-              <img class="confiamos"   src="John-Richmond-Logo.png" srcset="John-Richmond-Logo.png 1x, John-Richmond-Logo@2x.png 2x">
-            </div>
-            <div class="col-md-3 col-12">
-                <img class="confiamos" src="Volkswagen_logo_2019svg.png" srcset="Volkswagen_logo_2019svg.png 1x, Volkswagen_logo_2019svg@2x.png 2x">
-            </div>
+        <div class="row" style="--bs-gutter-x: -4.5rem;">
             <div class="col-md-3 col-12">
                 <img class="confiamos" src="n_024px-Ford_Motor_Company_Log.png" srcset="n_024px-Ford_Motor_Company_Log.png 1x, n_024px-Ford_Motor_Company_Log@2x.png 2x">
             </div>
             <div class="col-md-3 col-12">
                 <img class="confiamos"  src="n_280px-Pfizersvg.png" srcset="n_280px-Pfizersvg.png 1x, n_280px-Pfizersvg@2x.png 2x">
+            </div>
+            <div class="col-md-3 col-12">
+              <img class="confiamos"   src="John-Richmond-Logo.png" srcset="John-Richmond-Logo.png 1x, John-Richmond-Logo@2x.png 2x">
+            </div>
+            <div class="col-md-3 col-12">
+                <img class="confiamos" src="Volkswagen_logo_2019svg.png" srcset="Volkswagen_logo_2019svg.png 1x, Volkswagen_logo_2019svg@2x.png 2x">
             </div>
           </div>
         </div>
