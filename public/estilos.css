@@ -12,7 +12,23 @@
     font-size: 18px;
     color: rgba(57,57,57,1);
 }
-
+.subittuloProducto{
+    /* left: 50px; */
+    /* top: 1453px; */
+    /* position: absolute; */
+    overflow: visible;
+    width: 89px;
+    white-space: nowrap;
+    line-height: 72px;
+    margin-top: -28.5px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(57,57,57,1);
+    margin-top: 1px;
+}
 .tituloRelacionado{
     overflow: visible;
     white-space: nowrap;

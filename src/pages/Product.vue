@@ -4,7 +4,7 @@
     <br>
     <div id="producto">
     <br>
-      Productos
+
     <br>
     </div>
     <div class="container">
@@ -56,6 +56,7 @@
         <img width="70px" v-for="(img,key) in productoSeleccionado.imagenes" @click="establecerImagen(key)"   :src="img" :key="img" />
       </div>
       <div class="col-sm-3 col-12">
+        <br>
         <div id="tituloProducto">
 
           {{productoSeleccionado.titulo}}
@@ -87,14 +88,19 @@
           <div class="container" style="padding-right: 0; padding-left: 0;">
             <div class="row">
               <div class="col-md-6 col-12">
-                <input type="text" class="input_nom_prod" style="font-size: smaller;" name="nombre" placeholder="Nombre">
+                <div class="mb-3">
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+
+                </div>
               </div>
               <div class="col-md-6 col-12">
-                <input type="text" class="input_nom_prod" style="font-size: smaller;" name="empresa" placeholder="Empresa">
+                <input type="email" class="form-control" id="empresa" placeholder="empresa">
               </div>
             </div>
           </div>
-          <input type="text" class="input_mensaje" name="mensaje" style="font-size: smaller;" placeholder=" Tu mensaje...">
+          <textarea class="form-control" placeholder="Tu mensaje..." id="exampleFormControlTextarea1" rows="3"></textarea>
           <div style="padding: 10px; text-align: end;">
             <input type="submit" class="EnviarConsulta" value="Enviar">
           </div>
@@ -103,6 +109,7 @@
     </div>
       <div class="row">
         <div class="col-8">
+
           <div class="tituloRelacionado">
               Informacion relacionada
           </div>
@@ -118,8 +125,8 @@
     <div class="row">
       <div class="col-md-2 col-6" v-for="(pro,key) in products " :key="key" >
         <a target="_blank" :href="'#/producto/' + key" style="text-decoration:none" >
-        <img  src="iStock-1128110883.png" />
-          {{key}}
+        <img width="160px" v-if="pro.imagenes" :src="pro.imagenes.i1" />
+          <p class="subittuloProducto">   {{pro.titulo}}</p>
         </a>
       </div>
     </div>
