@@ -177,17 +177,11 @@
               </div>
             <label for="mensaje" id="Mensaje">Mensaje</label>
             <input type="text" class="input" name="mensaje" placeholder=" Tu mensaje..."><br><br>
-            <input type="submit" id="Enviar" value="Enviar">
           </div>
-<<<<<<< HEAD
-          <label for="mensaje" id="Mensaje">Mensaje</label>
-          <input type="text" class="input" name="mensaje" placeholder=" Tu mensaje..."><br><br>
           <div style="text-align: end;">
             <input type="submit" id="Enviar" value="Enviar">
           </div>
-=======
 
->>>>>>> 5dcdfb9f2f48d186fa611cb8fa9bbe57783e224e
         </form>
       </div>
   </div>
