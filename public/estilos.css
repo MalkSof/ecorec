@@ -1398,6 +1398,7 @@
     color: rgba(57,57,57,1);
     background-color: rgba(255,255,255,1);
     border-radius: 27px;
+    border: none;
 }
 /*SubNav*/
 
@@ -1903,4 +1904,102 @@ padding: 10px;
 }
 .imag{
     padding: 5px;
+}
+/*--------------------------*/
+/*--------------------------*/
+/*---------PRODUCTOS--------*/
+/*--------------------------*/
+/*--------------------------*/
+
+.botonConsl{
+    height: 40px;
+    width: 100%;
+    background-color: rgba(26,158,217,1);
+    border-radius: 27px;
+    padding: 8px;
+    margin: 10px;
+}
+#Consultar{
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: rgba(255,255,255,1);
+}
+#input_nom_prod {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(149,152,154,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.input_nom_prod {
+    width: 100%;
+    height: 30px;
+    border-radius: 4px;
+
+    fill: rgba(255,255,255,1);
+    stroke: rgba(149,152,154,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+    margin: 5px;
+}
+.EnviarConsulta{
+    overflow: visible;
+    width: 106px;
+    height: 33.087px;
+    white-space: nowrap;
+    background-color: rgba(57,57,57,1);
+    border-radius: 27px;
+    box-sizing: border-box;
+    border: none;
+    line-height: 13px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    color: rgba(255,255,255,1);
+}
+/*Envios*/
+.internacionales{
+    height: 115px;
+    box-sizing: border-box;
+    border: none;
+    background-color: rgba(40,52,140,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Envos_internacionales{
+    white-space: nowrap;
+    line-height: 120px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    color: rgba(255,255,255,1);
+}
+.mediosPago{
+    height: 115px;
+    box-sizing: border-box;
+    border: none;
+    background-color: rgba(26,158,217,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
 }

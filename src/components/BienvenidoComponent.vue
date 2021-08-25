@@ -167,7 +167,9 @@
           </div>
           <label for="mensaje" id="Mensaje">Mensaje</label>
           <input type="text" class="input" name="mensaje" placeholder=" Tu mensaje..."><br><br>
-          <input type="submit" id="Enviar" value="Enviar">
+          <div style="text-align: end;">
+            <input type="submit" id="Enviar" value="Enviar">
+          </div>
         </form>
       </div>
   </div>

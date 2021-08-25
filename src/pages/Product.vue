@@ -11,7 +11,7 @@
 
   <br>
     <div class="row">
-      <div class="col-sm-2 col-12">
+      <div class="col-sm-3 col-12">
         <div class="accordion" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
@@ -51,11 +51,11 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-5 col-12">
+      <div class="col-sm-6 col-12">
         <img id="FOTOA2" style="width: 100%" :src="imagenDefault">
         <img width="70px" v-for="(img,key) in productoSeleccionado.imagenes" @click="establecerImagen(key)"   :src="img" :key="img" />
       </div>
-      <div class="col-sm-5 col-12">
+      <div class="col-sm-3 col-12">
         <div id="tituloProducto">
 
           {{productoSeleccionado.titulo}}
@@ -76,6 +76,29 @@
           <br>
           {{productoSeleccionado.ventaja}}
         </div>
+        <a href="Home___2.html" target="_self" style="text-decoration: none;">
+          <div class="botonConsl">
+            <div id="Consultar">
+                Consultar
+            </div>
+          </div>
+        </a>
+        <form action="">
+          <div class="container" style="padding-right: 0; padding-left: 0;">
+            <div class="row">
+              <div class="col-md-6 col-12">
+                <input type="text" class="input_nom_prod" name="nombre" placeholder="Nombre">
+              </div>
+              <div class="col-md-6 col-12">
+                <input type="text" class="input_nom_prod" name="empresa" placeholder="Empresa">
+              </div>
+            </div>
+          </div>
+          <input type="text" class="input" name="mensaje" placeholder=" Tu mensaje...">
+          <div style="padding: 10px; text-align: end;">
+            <input type="submit" class="EnviarConsulta" value="Enviar">
+          </div>
+        </form>
       </div>
     </div>
       <div class="row">
@@ -99,7 +122,16 @@
           {{key}}
         </a>
       </div>
-
+    </div>
+    <div class="internacionales">
+        <div class="Envos_internacionales">
+		        Envíos internacionales
+	      </div>
+    </div>
+    <div class="mediosPago">
+        <div class="Envos_internacionales">
+		        Múltiples medios de pago
+	      </div>
     </div>
     </div>
   </div>
