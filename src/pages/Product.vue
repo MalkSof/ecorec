@@ -87,14 +87,14 @@
           <div class="container" style="padding-right: 0; padding-left: 0;">
             <div class="row">
               <div class="col-md-6 col-12">
-                <input type="text" class="input_nom_prod" name="nombre" placeholder="Nombre">
+                <input type="text" class="input_nom_prod" style="font-size: smaller;" name="nombre" placeholder="Nombre">
               </div>
               <div class="col-md-6 col-12">
-                <input type="text" class="input_nom_prod" name="empresa" placeholder="Empresa">
+                <input type="text" class="input_nom_prod" style="font-size: smaller;" name="empresa" placeholder="Empresa">
               </div>
             </div>
           </div>
-          <input type="text" class="input" name="mensaje" placeholder=" Tu mensaje...">
+          <input type="text" class="input_mensaje" name="mensaje" style="font-size: smaller;" placeholder=" Tu mensaje...">
           <div style="padding: 10px; text-align: end;">
             <input type="submit" class="EnviarConsulta" value="Enviar">
           </div>
@@ -117,7 +117,7 @@
       </div>
     <div class="row">
       <div class="col-md-2 col-6" v-for="(pro,key) in products " :key="key" >
-        <a   target="_blank" :href="'#/producto/' + key" >
+        <a target="_blank" :href="'#/producto/' + key" style="text-decoration:none" >
         <img  src="iStock-1128110883.png" />
           {{key}}
         </a>
