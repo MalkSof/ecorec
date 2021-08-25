@@ -123,16 +123,17 @@
         </a>
       </div>
     </div>
+
+    </div>
     <div class="internacionales">
-        <div class="Envos_internacionales">
-		        Envíos internacionales
-	      </div>
+      <div class="Envos_internacionales">
+        Envíos internacionales
+      </div>
     </div>
     <div class="mediosPago">
-        <div class="Envos_internacionales">
-		        Múltiples medios de pago
-	      </div>
-    </div>
+      <div class="Envos_internacionales">
+        Múltiples medios de pago
+      </div>
     </div>
   </div>
 </template>
