@@ -106,7 +106,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4 col-3"></div>
-        <div class="col-md-4 col-6" style="margin: 40px;">
+        <div class="col-md-4 col-6" style="margin: 40px;margin-bottom: 100px; margin-top: 100px;">
           <a href="Home___2.html" target="_self" style="text-decoration: none;">
               <div class="Backgound">
                   <div id="Ver_productos">
