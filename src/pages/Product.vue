@@ -135,6 +135,7 @@
         Múltiples medios de pago
       </div>
     </div>
+    <SubNavComponent></SubNavComponent>
   </div>
 </template>
 
@@ -142,10 +143,12 @@
 
 import json from '/src/data.json'
 import NavComponent from "../components/NavComponent";
+import SubNavComponent from "../components/SubNavComponent.vue";
 export default {
   name: "Product",
   components: {
-    NavComponent
+    NavComponent,
+    SubNavComponent
   },
     data(){
       return{
