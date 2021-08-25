@@ -12,7 +12,23 @@
     font-size: 18px;
     color: rgba(57,57,57,1);
 }
-
+.subittuloProducto{
+    /* left: 50px; */
+    /* top: 1453px; */
+    /* position: absolute; */
+    overflow: visible;
+    width: 89px;
+    white-space: nowrap;
+    line-height: 72px;
+    margin-top: -28.5px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(57,57,57,1);
+    margin-top: 1px;
+}
 .tituloRelacionado{
     overflow: visible;
     white-space: nowrap;
@@ -60,12 +76,7 @@
     font-size: 52px;
     color: rgb(255, 255, 255);
 }
-#bienvenido{
-    width: 100%;
-    overflow: visible;
-    top: 155.211px;
 
-}
 #Capa_1 {
     position: absolute;
     width: 240.786px;
@@ -347,20 +358,28 @@
     background-color: rgba(0,0,0,1);
     opacity: 0.6;
 }
-#Bienvenido_a_productos_ECOREC {
-
+#bienvenido{
+    width: 100%;
     overflow: visible;
+    top: 155.211px;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 8vw;
+    font-size: 6vw;
+
     justify-content: center;
     margin: 0 auto;
     text-align: center;
-    color: rgba(255,255,255,1);
-    background-image: url("fondoBienvenidos.jpg");
     background-size: cover;
+        height: 400px;
+    color: white;
+    display: flex;
+    align-items: center;
+
+    background-image: url("fondoBienvenidos.jpg");
 }
+
+
 #Lorem_ipsum {
     overflow: visible;
     width: 100%;

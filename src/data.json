@@ -7,7 +7,7 @@
           "ventaja": "Hilado de carbono: Material antiestático. No desprende fibras. \nTesteado bajo normas ASTM.\nUtilizado globalmente. Resistencia a ciclos de lavado y esterilizado.\nVariedad de talles y colores.\n",
           "masinfo": "Las propiedades antiestáticas de este equipo hacen que sea el estilo de prenda ideal para utilizar en áreas limpias de la industria farmacéutica. Estas prendas no desprenden fibras que puedan interferir con su producción, al tiempo que generan un ambiente más limpio, con menor cantidad de partículas en el mismo.  \nLas prendas de Ecorec Productos pueden ser utilizadas desde Áreas controladas clase A a D. Nuestro diseño ofrece comodidad y seguridad al usuario. A su vez contamos con variedad de talles y colores.  \n",
           "imagenes" : {
-            "1": "/Cubreboca/Foto_Barbijo1.png",
+            "i1": "/Cubreboca/Foto_Barbijo1.png",
             "2": "/Cubreboca/Foto_Barbijo2.jpeg",
             "3": "/Cubreboca/Foto_Barbijo3.jpeg",
             "4": "/Cubreboca/Foto_Barbijo4.jpg"
@@ -43,7 +43,7 @@
         "ventaja":"Confeccionado con hilado de carbono. \nMaterial antiestático: No adhiere partículas indeseadas. \nLavable y esterilizable por más de 50 lavados. \nLivianos y confortables.",
         "masinfo":"Cubrebocas de polyester y hilado de carbono al 2 %, utilizan la misma tela que los equipos de producción en la industria farmacéutica. Tendrá a su disposición un cubre bocas con un alto nivel de filtrado. El material antiestático hace que no se adhieran partículas indeseables en la superficie del cubrebocas. Son lavable y esterilizables por varios ciclos. Disponible en colores azul y celeste. ",
         "imagenes" : {
-          "1": "/Cubreboca/Foto_Barbijo1.png",
+          "i1": "/Cubreboca/Foto_Barbijo1.png",
           "2": "/Cubreboca/Foto_Barbijo2.jpeg",
           "3": "/Cubreboca/Foto_Barbijo3.jpeg",
           "4": "/Cubreboca/Foto_Barbijo4.jpg"
@@ -55,7 +55,7 @@
         "ventaja":"Desinfección rápida y efectiva: Habitación de 3x3 en 8 minutos \nTransportable. \nAlcance: Hasta 100m2 en una aplicación. Llega a todas las superficies del ambiente a desinfectar. \nAgente desinfectante aprobado por Anmat.",
         "masinfo":"El FOGMASTER es un sistema de desinfección de ambientes que se compone de un equipo vaporizador y un agente sanitizante, EsteriFog, que está compuesto en base a peróxido de hidrogeno al 5 %, un poderoso desinfectante. \nMediante la nebulización del agente sanitizante a través del vaporizador, el sistema logra la desinfección total del ambiente tratado, eliminando al 99,9% de los virus y bacterias que se encuentren en él. \nLa particularidad de este sistema de desinfección, y lo que lo hace único en el mercado, es que en su aplicación llega a todos los rincones y desinfecta todas las superficies del lugar tratado. Además el FOGMASTER es transportable y puede desinfectar hasta 100m2 en una sola aplicación.",
         "imagenes":{
-          "1": "/Fogmaster/Foto1_Fogmaster.jpg",
+          "i1": "/Fogmaster/Foto1_Fogmaster.jpg",
           "2": "/Fogmaster/Foto2_Fogmaster.jpg",
           "3": "/Fogmaster/Foto3_Fogmaster.jpg",
           "4": "/Fogmaster/Foto4_Fogmaster.jpg",
@@ -69,7 +69,7 @@
         "ventaja":"Elimina el 99,9% de virus y bacterias que llegan a su superficie en minutos. \nAprobado por la EPA (EEUU). \nTamaño del rollo: 10 M x 0,40 CM. \nAdaptable e instalable en múltiples superficies. \nFácil de instalar.",
         "masinfo":"El film antibacterial de cobre es una lámina transparente y con adhesivo que se aplica en diferentes superficies de contacto común. \nEsta compuesto por nano partículas de cobre que atacan a las bacterias y virus que posen sobre él. Gracias a esta característica antimicrobiana del cobre, eliminara al 99,9% de los microorganismos en solo 30 minutos sin la necesidad aplicar ningún desinfectante sobre el área tratada.   \nAplicando este film en diferentes superficies de alto contacto humano usted eliminara cualquier virus de manera mas rápida evitando la propagación de cualquier enfermedad en el lugar donde se encuentre. Haga un ambiente más seguro para usted, sus seres queridos o sus clientes!.",
         "imagenes":{
-          "1":"/Film/Foto1_Cobre.jpg",
+          "i1":"/Film/Foto1_Cobre.jpg",
           "2":"/Film/Foto2_Cobre.jpg",
           "3":"/Film/Foto3_Cobre.jpg",
           "4":"/Film/Foto4_Cobre.jpg",

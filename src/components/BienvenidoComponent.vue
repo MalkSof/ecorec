@@ -1,17 +1,17 @@
 <template>
   <div>
     <div id="bienvenido">
-      <div id="Bienvenido_a_productos_ECOREC">
-          <div class="sombraBien">
-          Bienvenido a productos ECOREC
-          </div>
-      </div>
+
+          Bienvenido a<br> productos ECOREC
+
     </div>
     <div style="padding: 30px;">
       <div id="Lorem_ipsum">
         Bienvenidos a Ecorec Productos.
       </div>
-      <div id="Lorem_ipsum_dolor_sit_amet_con">
+      <br>
+      <br>
+      <div class="container-sm" id="Lorem_ipsum_dolor_sit_amet_con">
         Somos una empresa con 40 años de trayectoria. Ofrecemos indumentaria de trabajo, incluidas aquellas prendas destinadas a salas limpias de diferentes industrias. A su vez ofrecemos diferentes productos para salas blancas, para la higiene en general y la protección personal de diferentes sectores.  
       </div>
     </div>
