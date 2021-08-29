@@ -894,7 +894,7 @@
     height: 398px;
     left: 0px;
     overflow: visible;
-    background-image: url("Foto1_MameAuto.png");
+    background-image: url("Foto1_MameAuto_edi.png");
     white-space: nowrap;
     line-height: 52px;
     text-align: center;
@@ -912,8 +912,6 @@
     height: 398px;
     overflow: visible;
     padding-top: 300px;
-    background-color: rgba(0,0,0,1);
-    opacity: 0.6;
 }
 .Rectangle_48 {
     mix-blend-mode: multiply;
@@ -943,7 +941,7 @@
     height: 398px;
     left: 0px;
     overflow: visible;
-    background-image: url("Foto1_MameFarma.png");
+    background-image: url("Foto1_MameFarma_edi.png");
     white-space: nowrap;
     line-height: 52px;
     text-align: center;
@@ -992,7 +990,7 @@
     height: 398px;
     left: 0px;
     overflow: visible;
-    background-image: url("Foto4_MameAuto.png");
+    background-image: url("Foto4_MameAuto_edi.png");
     white-space: nowrap;
     line-height: 52px;
     text-align: center;
@@ -1041,7 +1039,7 @@
     height: 398px;
     left: 0px;
     overflow: visible;
-    background-image: url("Foto3_TrajeMedico.png");
+    background-image: url("Foto3_TrajeMedico_edi.png");
     white-space: nowrap;
     line-height: 52px;
     text-align: center;
