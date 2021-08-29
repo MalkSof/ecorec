@@ -317,6 +317,7 @@
     color: rgba(40,52,140,1);
     text-transform: uppercase;
     text-decoration: none;
+    margin-right: 30px;
 }
 #IMG_9955 {
     position: absolute;
@@ -1098,6 +1099,9 @@
     border-radius: 27px;
     height: 40px;
     padding: 1px;
+    margin: 0 auto;
+    width: 173px;
+    margin-top: 85px;
 }
 #Ver_productos {
     white-space: nowrap;
@@ -1118,11 +1122,13 @@
     font-style: normal;
     font-weight: lighter;
     font-size: 44px;
+    margin-top: 85px;
     color: rgba(26,158,217,1);
 }
 /*Img conf*/
 #Group_56 {
     width: 100%;
+    margin-bottom: 50px;
 }
 .confiamos{
     margin-top: 40px;

@@ -105,9 +105,9 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-md-4 col-3"></div>
-        <div class="col-md-4 col-6" style="margin: 40px;">
-          <a href="Home___2.html" target="_self" style="text-decoration: none;">
+
+
+
               <div class="Backgound">
                   <div id="Ver_productos">
 
@@ -115,9 +115,8 @@
                     <br>
                   </div>
               </div>
-          </a>
-        </div>
-        <div class="col-md-4 col-3"></div>
+
+
       </div>
     </div>
     <div id="Confiaron_en_nosotros">
