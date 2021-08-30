@@ -52,7 +52,7 @@
         </div>
       </div>
       <div class="col-sm-6 col-12">
-        <img id="FOTOA2" :style="'width: 100%; height: 550px; background-image: url('+imagenDefault+ ');  background-position:center; '"  />
+        <img id="FOTOA2" style="height: 550px; max-width: 100%"  :src="imagenDefault" />
         <div style="margin-top: 10px;    ">
         <img style="'width: 100px;  margin-right:10px; border-radius: 10px; height: 100px; background-image: url('+img+ ');  background-position:center; '" v-for="(img,key) in productoSeleccionado.imagenes" @click="establecerImagen(key)" :src="img"   :key="img" />
         </div>
@@ -124,13 +124,26 @@
          Productos Relacionados
         </div>
       </div>
-    <div class="row">
-      <div class="col-md-2 col-6" v-for="(pro,key) in products " :key="key" >
+      <VueSlickCarousel v-bind="settings">
+
+        <div  v-for="(pro,key) in products " :key="key" >
         <a target="_blank" :href="'#/producto/' + key" style="text-decoration:none" >
-        <img width="160px" v-if="pro.imagenes" :src="pro.imagenes.i1" />
+          <img width="160px" v-if="pro.imagenes" :src="pro.imagenes.i1" />
           <p class="subittuloProducto">   {{pro.titulo}}</p>
         </a>
-      </div>
+        </div>
+        <template class="prev" #prevArrow>
+          <img style="width: 33px;height: 33px;" src="buttons/after.png">
+        </template>
+        <template #nextArrow>
+          <img style="width: 33px;height: 33px;" src="buttons/next.png">
+        </template>
+      </VueSlickCarousel>
+    <div class="row">
+
+
+
+
     </div>
 
     </div>
@@ -144,24 +157,52 @@
         Múltiples medios de pago <img src="card.png">
       </div>
     </div>
+
     <SubNavComponent></SubNavComponent>
   </div>
 </template>
+
+<style scoped>
+.prev{
+
+
+
+
+
+}
+</style>
 
 <script>
 
 import json from '/src/data.json'
 import NavComponent from "../components/NavComponent";
 import SubNavComponent from "../components/SubNavComponent.vue";
+import VueSlickCarousel from 'vue-slick-carousel'
+import 'vue-slick-carousel/dist/vue-slick-carousel.css'
+// optional style for arrows & dots
+import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
 export default {
   name: "Product",
   components: {
     NavComponent,
-    SubNavComponent
+    SubNavComponent,
+    VueSlickCarousel
   },
     data(){
       return{
-
+        settings:
+            {
+              "dots": false,
+              "arrows": true,
+              "edgeFriction": 0.35,
+              "dotsClass": "slick-dots custom-dot-class",
+              "infinite": false,
+              "speed": 500,
+              "slidesToShow": 5,
+              "slidesToScroll": 1,
+              "prevArrow":" <img class='a-left control-c prev slick-prev' src='logochico.png'>",
+              "nextArrow":"<img class='a-right control-c next slick-next' src='logochico.png'>"
+            },
         myJson: json,
         productoSeleccionado: [],
         products : [],
@@ -185,6 +226,3 @@ export default {
 }
 </script>
 
-<style scoped>
-
-</style>
