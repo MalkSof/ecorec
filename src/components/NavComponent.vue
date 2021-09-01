@@ -3,14 +3,16 @@
     <div id="nav">
       <div class="row">
         <div class="col ">
-          <img  class="float-start" src="logochico.png"/>
+          <router-link to="/" > <img  class="float-start" src="logochico.png"/>
+          </router-link>
 
 
         </div>
         <div class="col" >
 
           <div class="float-end" style="margin-top: 20px;">
-          <a href="Home___2.html" target="_self" class="Productos">Productos</a>
+
+            <router-link to="/producto/equipo-area-esteril-pharma" class="Productos">Productos</router-link>
           <a href="Home___2.html" target="_self" class="Productos">Nosotros</a>
           <a href="Home___2.html" target="_self" class="Productos">Contacto</a>
           </div>
