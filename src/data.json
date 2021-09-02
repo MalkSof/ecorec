@@ -29,7 +29,13 @@
         "titulo": "Mameluco antiestático",
         "descri" :"Equipos para industria electrónica, cabinas de pintura u otros usos. Confeccionados de polyester e hilado de carbono al 2 %. Propiedades antiestáticas, no desprende pelusas.",
         "ventaja":"Apto cabinas de pintura e industria electrónica. \nMaterial antiestático: No desprende fibras, ni acumula estática. \nTesteado bajo estrictas normas. \nConfortable. Con respiradores opcionales. Variedad de talles.",
-        "masinfo":"Las propiedades antiestáticas de esta prenda la vuelven ideal para su utilización en cabinas de pintura de industria automotriz o de industria electrónica. No desprenden, ni adhieren fibras o partículas que pueden perjudicar las piezas que se estén tratando en su proceso. A su vez no acumulan carga estática gracias al hilado de carbono. \nA su vez cuenta opcionalmente con respiradores en la zona de espalda para soportar mejor las temperaturas elevadas a los que son expuestos en ciertos procesos. \nSus propiedades están testeadas bajo ensayos. Confortables y livianas para el usuario, a la vez que cumplen con su función."
+        "masinfo":"Las propiedades antiestáticas de esta prenda la vuelven ideal para su utilización en cabinas de pintura de industria automotriz o de industria electrónica. No desprenden, ni adhieren fibras o partículas que pueden perjudicar las piezas que se estén tratando en su proceso. A su vez no acumulan carga estática gracias al hilado de carbono. \nA su vez cuenta opcionalmente con respiradores en la zona de espalda para soportar mejor las temperaturas elevadas a los que son expuestos en ciertos procesos. \nSus propiedades están testeadas bajo ensayos. Confortables y livianas para el usuario, a la vez que cumplen con su función.",
+        "imagenes" : {
+          "i1": "/anti/anti1.png",
+          "2":  "/anti/anti2.png",
+          "3":  "/anti/anti3.png",
+          "4":  "/anti/anti4.png"
+        }
 
       },
       "ambos-para-atencion-medica":{
