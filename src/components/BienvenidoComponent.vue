@@ -105,18 +105,13 @@
     </div>
     <div class="container">
       <div class="row">
-
-
-
-              <div class="Backgound">
-                  <div id="Ver_productos">
-
-                      Ver productos
-                    <br>
-                  </div>
-              </div>
-
-
+        <div class="Backgound">
+          <router-link to="/producto/equipo-area-esteril-pharma" style="text-decoration: none">
+            <div id="Ver_productos">
+              Ver productos
+            </div>
+          </router-link>
+        </div>
       </div>
     </div>
     <div id="Confiaron_en_nosotros">

@@ -57,6 +57,7 @@
         <img style="'width: 100px;  margin-right:10px; border-radius: 10px; height: 100px; background-image: url('+img+ ');  background-position:center; '" v-for="(img,key) in productoSeleccionado.imagenes" @click="establecerImagen(key)" :src="img"   :key="img" />
         </div>
       </div>
+
       <div class="col-sm-3 col-12">
         <br>
         <div id="tituloProducto">
@@ -116,10 +117,13 @@
               Informacion relacionada
           </div>
         </div>
+
         <div class="textoNormal">
           <br>
           {{productoSeleccionado.masinfo}}
         </div>
+        <br>
+        <br>
         <div class="tituloRelacionado">
          Productos Relacionados
         </div>
