@@ -30,12 +30,19 @@
         "descri" :"Equipos para industria electrónica, cabinas de pintura u otros usos. Confeccionados de polyester e hilado de carbono al 2 %. Propiedades antiestáticas, no desprende pelusas.",
         "ventaja":"Apto cabinas de pintura e industria electrónica. \nMaterial antiestático: No desprende fibras, ni acumula estática. \nTesteado bajo estrictas normas. \nConfortable. Con respiradores opcionales. Variedad de talles.",
         "masinfo":"Las propiedades antiestáticas de esta prenda la vuelven ideal para su utilización en cabinas de pintura de industria automotriz o de industria electrónica. No desprenden, ni adhieren fibras o partículas que pueden perjudicar las piezas que se estén tratando en su proceso. A su vez no acumulan carga estática gracias al hilado de carbono. \nA su vez cuenta opcionalmente con respiradores en la zona de espalda para soportar mejor las temperaturas elevadas a los que son expuestos en ciertos procesos. \nSus propiedades están testeadas bajo ensayos. Confortables y livianas para el usuario, a la vez que cumplen con su función."
+
       },
       "ambos-para-atencion-medica":{
         "titulo": "Ambos para atención médica",
         "descri" :"Ambos confeccionados de polyester e hilado de carbono al 2%. Seguridad y confort a su disposición.",
         "ventaja":"Material antiestático: No acumula partículas. \nAlto poder de filtración. Prendas utilizadas en industria pharma. \nLavable y esterilizable por más de 50 ciclos. \nCaracterísticas testeadas bajo normas.",
-        "masinfo":"Estas prendas confeccionadas con hilado de carbono le brindaran a usted y a su personal la seguridad y el confort necesaria para efectuar las tareas diarias del trabajo de la forma más segura.\nEl hilado de carbono cuenta con características antiestáticas que previene que menos partículas que las normales se adhieran al equipo, generando menos carga bacteriana en estos y en consecuencia generando un ambiente más limpio. La tela es utilizada en las industrias farmacéuticas para elaborar medicamentos. Contará con el mismo nivel de protección.\nAptos para atención medica en todas sus ramas: Odontología, Kinesiología, Atención General.\nAsesoramiento personalizado. Múltiples talles. Lavables y esterilizable por múltiples ciclos."
+        "masinfo":"Estas prendas confeccionadas con hilado de carbono le brindaran a usted y a su personal la seguridad y el confort necesaria para efectuar las tareas diarias del trabajo de la forma más segura.\nEl hilado de carbono cuenta con características antiestáticas que previene que menos partículas que las normales se adhieran al equipo, generando menos carga bacteriana en estos y en consecuencia generando un ambiente más limpio. La tela es utilizada en las industrias farmacéuticas para elaborar medicamentos. Contará con el mismo nivel de protección.\nAptos para atención medica en todas sus ramas: Odontología, Kinesiología, Atención General.\nAsesoramiento personalizado. Múltiples talles. Lavables y esterilizable por múltiples ciclos.",
+        "imagenes" : {
+          "i1": "/mame/mame1.png",
+          "2":  "/mame/mame2.png",
+          "3":  "/mame/mame3.png",
+          "4":  "/mame/mame4.png"
+        }
       },
       "barbijos":{
         "titulo": "Cubrebocas CARBON 50",

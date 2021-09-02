@@ -29,6 +29,9 @@
     color: rgba(57,57,57,1);
     margin-top: 1px;
 }
+#conentedorRela {
+    height: 230px;
+}
 .tituloRelacionado{
     overflow: visible;
     white-space: nowrap;

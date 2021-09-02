@@ -132,7 +132,9 @@
 
         <div  v-for="(pro,key) in products " :key="key" >
         <a class="link" style="text-decoration:none" target="_blank" :href="'#/producto/' + key"  >
-          <img width="160px" v-if="pro.imagenes" :src="pro.imagenes.i1" />
+          <div id="conentedorRela"   >
+            <img width="160px" v-if="pro.imagenes" :src="pro.imagenes.i1" />
+          </div>
           <p class="subittuloProducto">   {{pro.titulo}}</p>
         </a>
         </div>
