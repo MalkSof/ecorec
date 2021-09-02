@@ -1,10 +1,6 @@
 <template>
   <div>
-    <div id="bienvenido">
-
-          Bienvenido a<br> productos ECOREC
-
-    </div>
+    <img style="width: 100%" src="/bannerProductos.jpg"/>
     <div style="padding: 30px;">
       <div id="Lorem_ipsum">
         Bienvenidos a Ecorec Productos.
