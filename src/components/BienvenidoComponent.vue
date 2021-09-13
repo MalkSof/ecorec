@@ -3,7 +3,7 @@
     <img style="width: 100%" src="/bannerProductos.jpg"/>
     <div style="padding: 30px;">
       <div id="Lorem_ipsum">
-        Bienvenidos a Ecorec Productos.
+        Bienvenidos a Ecorec Productos
       </div>
       <br>
       <br>
