@@ -35,6 +35,7 @@
 .tituloRelacionado{
     overflow: visible;
     white-space: nowrap;
+    margin-top: 20px;
     line-height: 72px;
     text-align: left;
     font-family: Roboto;
@@ -77,6 +78,9 @@
     font-weight: lighter;
     font-size: 52px;
     color: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-bottom: 20px;
+
 }
 
 #Capa_1 {
@@ -159,6 +163,25 @@
     left: 23.277px;
     top: 1.485px;
     transform: matrix(1,0,0,1,0,0);
+}
+
+.float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+
+.my-float{
+    margin-top:16px;
 }
 #Path_44 {
     fill: rgba(26,158,217,1);
@@ -1369,7 +1392,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 31px;
+    font-size: 26px;
     color: rgba(57,57,57,1);
 }
 #Group_37 {

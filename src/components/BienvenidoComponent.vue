@@ -25,7 +25,7 @@
                       Envíos
                   </div>
                   <div id="Lorem_ipsum_dolor_sit_amet_con_">
-                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    Envíos internacionales
                   </div>
                 </div>
             </div>
@@ -37,7 +37,7 @@
                     Pagos
                 </div>
                 <div id="Lorem_ipsum_dolor_sit_amet_con_ba">
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    Múltiples medios de pago seguros
                 </div>
             </div>
             <div class="col-md-4 col-12">
@@ -48,7 +48,7 @@
                     Atención
                 </div>
                 <div id="Lorem_ipsum_dolor_sit_amet_con_bh">
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                  Atención personalizada
                 </div>
             </div>
 
@@ -123,7 +123,8 @@
                 <img class="confiamos"  src="n_280px-Pfizersvg.png" srcset="n_280px-Pfizersvg.png 1x, n_280px-Pfizersvg@2x.png 2x">
             </div>
             <div class="col-md-3 col-12">
-              <img class="confiamos"   src="John-Richmond-Logo.png" srcset="John-Richmond-Logo.png 1x, John-Richmond-Logo@2x.png 2x">
+              <img class="confiamos"  style="width: 175px;
+    margin-top: 50px;"  src="Laboratorios_Richmond.png" >
             </div>
             <div class="col-md-3 col-12">
                 <img class="confiamos" src="Volkswagen_logo_2019svg.png" srcset="Volkswagen_logo_2019svg.png 1x, Volkswagen_logo_2019svg@2x.png 2x">

@@ -3,9 +3,9 @@
     <NavComponent></NavComponent>
     <br>
     <div id="producto">
-    <br>
 
-    <br>
+    Productos
+
     </div>
     <div class="container">
 
@@ -52,7 +52,7 @@
         </div>
       </div>
       <div class="col-sm-6 col-12">
-        <img id="FOTOA2" style="height: 550px; max-width: 100%"  :src="imagenDefault" />
+        <img id="FOTOA2" style="height: 550px; max-width: 100%;   border: 1px solid #000000;" :src="imagenDefault" />
         <div style="margin-top: 10px;    ">
         <img style="'width: 100px;  margin-right:10px; border-radius: 10px; height: 100px; background-image: url('+img+ ');  background-position:center; '" v-for="(img,key) in productoSeleccionado.imagenes" @click="establecerImagen(key)" :src="img"   :key="img" />
         </div>
@@ -70,20 +70,27 @@
             Caracteristicas
         </div>
         <div class="textoNormal">
-          <br>
+
           {{productoSeleccionado.descri}}
         </div>
         <div class="subtitulo">
           Ventajas
         </div>
         <div class="textoNormal">
-          <br>
-          {{productoSeleccionado.ventaja}}
+
+          <ul>
+            <li>
+              {{productoSeleccionado.ventaja}}
+            </li>
+          </ul>
         </div>
         <a href="Home___2.html" target="_self" style="text-decoration: none;">
           <div class="botonConsl">
             <div id="Consultar">
                 Consultar
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+              </svg>
             </div>
           </div>
         </a>
@@ -163,6 +170,9 @@
         Múltiples medios de pago <img src="card.png">
       </div>
     </div>
+    <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+      <i class="fa fa-whatsapp my-float"></i>
+    </a>
 
     <SubNavComponent></SubNavComponent>
   </div>
