@@ -12,9 +12,10 @@
 
           <div class="float-end" style="margin-top: 20px;">
 
-            <router-link to="/producto/equipo-area-esteril-pharma" class="Productos">Productos</router-link>
-          <a href="Home___2.html" target="_self" class="Productos">Nosotros</a>
-          <a href="Home___2.html" target="_self" class="Productos">Contacto</a>
+          <router-link to="/producto/equipo-area-esteril-pharma" class="Productos">Productos</router-link>
+          
+          <router-link to="/nosotros" class="Productos">Nosotros</router-link>
+          <router-link to="/contacto" class="Productos">Contacto</router-link>
           </div>
         </div>
       </div>

@@ -6,7 +6,10 @@ Vue.use(VueRouter);
 
 const routes = [
   { path: '/producto/:slug', component: require("./pages/Product").default },
-  { path: '/', component: require("./pages/Home").default  }
+  { path: '/', component: require("./pages/Home").default  },
+  { path: '/contacto', component: require("./pages/contact").default  },
+  { path: '/nosotros', component: require("./pages/Nosotros").default  }
+  
 ]
 
 // 3. Create the router instance and pass the `routes` option
