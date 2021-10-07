@@ -7,17 +7,17 @@
           "ventaja": "Hilado de carbono: Material antiestático. No desprende fibras. \nTesteado bajo normas ASTM.\nUtilizado globalmente. Resistencia a ciclos de lavado y esterilizado.\nVariedad de talles y colores.\n",
           "masinfo": "Las propiedades antiestáticas de este equipo hacen que sea el estilo de prenda ideal para utilizar en áreas limpias de la industria farmacéutica. Estas prendas no desprenden fibras que puedan interferir con su producción, al tiempo que generan un ambiente más limpio, con menor cantidad de partículas en el mismo.  \nLas prendas de Ecorec Productos pueden ser utilizadas desde Áreas controladas clase A a D. Nuestro diseño ofrece comodidad y seguridad al usuario. A su vez contamos con variedad de talles y colores.  \n",
           "imagenes" : {
-            "i1": "/Cubreboca/Foto1_MameFarma.png",
-            "2": "/Cubreboca/Foto_MameFarmaUSO.jpg",
-            "3": "/Cubreboca/Foto4_MameFarma.png",
-            "4": "/Cubreboca/Foto_MameFarmaUSO2.jpg",
-            "5": "/Cubreboca/Foto5_MameFarma.png"
+            "i1": "/areaPharma/Foto1_MameFarma.png",
+            "2": "/areaPharma/Foto_MameFarmaUSO.jpg",
+            "3": "/areaPharma/Foto4_MameFarma.png",
+            "4": "/areaPharma/Foto_MameFarmaUSO2.jpg",
+            "5": "/areaPharma/Foto5_MameFarma.png"
           }
       },
       "cofia-capuchas": {
         "titulo": "Cofia/Capuchas",
         "descri" :"Capucha/cofia confeccionada de polyester con hilado de carbono al 2%. Este tipo de prenda con características antiestática se utiliza en cabinas limpias de producción pharma. Diferentes modelos a pedido. ",
-        "ventaja":"<li>Hilados de carbono: Material antiestático. No desprende fibras.</li> \n<li>Diferentes Modelos a pedido.</li> \nTesteado bajo normas ASTM. \nReutilizable Resistencia a ciclos de lavado y esterilizado. \nVariedad de talles y colores.",
+        "ventaja":"Hilados de carbono: Material antiestático. No desprende fibras. \nDiferentes Modelos a pedido. \nTesteado bajo normas ASTM. \nReutilizable Resistencia a ciclos de lavado y esterilizado. \nVariedad de talles y colores.",
         "masinfo":"Las propiedades antiestáticas de esta prenda hacen que sea el estilo de prenda ideal para utilizar en entornos limpios. Estas prendas no desprenden fibras que puedan interferir con su producción, al tiempo que generan un ambiente más limpio, con menor cantidad de partículas en el mismo.\n Las prendas de Ecorec Productos pueden ser utilizadas desde Áreas controladas clase A a D. Nuestro diseño ofrece comodidad y seguridad al usuario. A su vez contamos con variedad de talles y colores.",
         "imagenes" : {
           "i1": "/cofia_capuchas/Foto1_Capucha.png",

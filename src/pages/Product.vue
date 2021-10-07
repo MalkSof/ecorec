@@ -16,12 +16,12 @@
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                {{productoSeleccionado.titulo}}
+                Equipo Área Estéril Pharma
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                {{productoSeleccionado.descri}}
+                Confeccionado de polyester con hilado de carbono al 2%. Este tipo de prenda con características antiestática se utiliza en cabinas limpias de producción pharma.<br><a class="link" style="text-decoration:none" target="_blank" href="#/producto/equipo-area-esteril-pharma"> Ver producto</a>
               </div>
             </div>
           </div>
@@ -33,7 +33,7 @@
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                Ambos confeccionados de polyester e hilado de carbono al 2%. Seguridad y confort a su disposición.
+                Ambos confeccionados de polyester e hilado de carbono al 2%. Seguridad y confort a su disposición. <a class="link" style="text-decoration:none" target="_blank" href="#/producto/ambos-para-atencion-medica"> Ver producto</a>
               </div>
             </div>
           </div>
@@ -45,7 +45,7 @@
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                Lamina antibacterial con nano partículas de cobre. Superficie autosanitizante.
+                Lamina antibacterial con nano partículas de cobre. Superficie autosanitizante.<br><a class="link" style="text-decoration:none" target="_blank" href="#/producto/film-antibacterial"> Ver producto</a>
               </div>
             </div>
           </div>
