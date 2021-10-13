@@ -1,7 +1,7 @@
 <template>
     <div id="Nosotros">
         <NavComponent></NavComponent>
-        <div class="Nosotros">
+        <div id="producto">
           Nosotros
         </div>
         <SubNavComponent></SubNavComponent>

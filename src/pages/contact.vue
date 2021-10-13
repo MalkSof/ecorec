@@ -1,7 +1,7 @@
 <template>
     <div id="contacto">
         <NavComponent></NavComponent>
-        <div class="Contacto">
+        <div id="producto">
           Contacto
         </div>
         <SubNavComponent></SubNavComponent>

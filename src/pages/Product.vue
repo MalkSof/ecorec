@@ -13,6 +13,16 @@
     <div class="row">
       <div class="col-sm-3 col-12">
         <div class="accordion" id="accordionExample">
+          
+          
+          <div class="accordion-item">
+            <h2 class="accordion-header accordion-header2">
+                PRODUCTOS
+            </h2>
+          </div>
+
+
+
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
