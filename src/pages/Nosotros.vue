@@ -8,7 +8,23 @@
       <div id="2">
 
 
+        <VueSlickCarousel v-bind="settings">
 
+          <div  v-for="(pro,key) in products " :key="key" >
+            <a class="link" style="text-decoration:none" target="_blank" :href="'#/producto/' + key"  >
+              <div id="conentedorRela"   >
+                <img width="160px" v-if="pro.imagenes" :src="pro.imagenes.i1" />
+              </div>
+              <p class="subittuloProducto">   {{pro.titulo}}</p>
+            </a>
+          </div>
+          <template class="prev" #prevArrow>
+            <img style="width: 33px;height: 33px;" src="buttons/after.png">
+          </template>
+          <template #nextArrow>
+            <img style="width: 33px;height: 33px;" src="buttons/next.png">
+          </template>
+        </VueSlickCarousel>
         
 
 
@@ -54,6 +70,10 @@
 import NavComponent from "../components/NavComponent";
 import SubNavComponent from "../components/SubNavComponent.vue";
 import json from '/src/data.json';
+import VueSlickCarousel from 'vue-slick-carousel'
+import 'vue-slick-carousel/dist/vue-slick-carousel.css'
+// optional style for arrows & dots
+import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
 //import VueSlickCarousel from 'vue-slick-carousel'
 //import 'vue-slick-carousel/dist/vue-slick-carousel.css'
 //// optional style for arrows & dots
@@ -64,7 +84,7 @@ export default {
   components:{
   NavComponent,
   SubNavComponent,
-  //VueSlickCarousel
+  VueSlickCarousel
   },
     data(){
       return{
