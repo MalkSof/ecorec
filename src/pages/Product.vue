@@ -22,7 +22,7 @@
           </div>
 
 
-
+          <!--1-->
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -35,6 +35,7 @@
               </div>
             </div>
           </div>
+          <!--2-->
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingTwo">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -47,6 +48,7 @@
               </div>
             </div>
           </div>
+          <!--3-->
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingThree">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -59,11 +61,83 @@
               </div>
             </div>
           </div>
+          <!--4-->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Cofia/Capuchas
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Capucha/cofia confeccionada de polyester con hilado de carbono al 2%. Este tipo de prenda con características antiestática se utiliza en cabinas limpias de producción pharma. Diferentes modelos a pedido. <br><a class="link" style="text-decoration:none" target="_blank" href="#/producto/cofia-capuchas"> Ver producto</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--5-->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                Botas
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Cubrebotas confeccionados de polyester con hilado de carbono al 2%. Este tipo de prenda con características antiestática se utiliza en cabinas limpias de producción pharma. Diferentes modelos a pedido. <br><a class="link" style="text-decoration:none" target="_blank" href="#/producto/botas"> Ver producto</a>
+              </div>
+            </div>
+          </div>
+
+
+        <!--6-->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                Mameluco antiestático
+              </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Equipos para industria electrónica, cabinas de pintura u otros usos. Confeccionados de polyester e hilado de carbono al 2 %. Propiedades antiestáticas, no desprende pelusas. <br><a class="link" style="text-decoration:none" target="_blank" href="#/producto/mameluco-antiestatico"> Ver producto</a>
+              </div>
+            </div>
+          </div>
+
+          <!--7-->
+      <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSeven">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+              Cubrebocas CARBON 50
+            </button>
+          </h2>
+          <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Cubrebocas con hilado de carbono. Material antiestático. No acumula partículas. Reutilizable. <br><a class="link" style="text-decoration:none" target="_blank" href="#/producto/barbijos"> Ver producto</a>
+            </div>
+          </div>
+        </div>
+
+        <!--8-->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingEight">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+              Fogmaster
+            </button>
+          </h2>
+          <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Esterilizador de ambientes en base a inyección de peróxido de hidrogeno. Elimina el 99,9% de los virus y bacterias en el ambiente. <br><a class="link" style="text-decoration:none" target="_blank" href="#/producto/fogmaster"> Ver producto</a>
+            </div>
+          </div>
         </div>
       </div>
+      
+
+
       <div class="col-sm-6 col-12">
         <img id="FOTOA2" style="height: 550px; max-width: 100%;   border: 1px solid rgb(209, 209, 209);" :src="imagenDefault" />
-        <div style="margin-top: 10px;    ">
+        <div style="margin-top: 10px;">
         <img style="'width: 100px;  margin-right:10px; border-radius: 10px; height: 100px; background-image: url('+img+ ');  background-position:center; '" v-for="(img,key) in productoSeleccionado.imagenes" @click="establecerImagen(key)" :src="img"   :key="img" />
         </div>
       </div>
