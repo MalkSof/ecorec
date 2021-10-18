@@ -7,8 +7,8 @@
       <div id="2"></div>
       <div id="2">
 
-
-        <VueSlickCarousel v-bind="settings">
+        <div class="container">
+           <VueSlickCarousel v-bind="settings">
 
           <div  v-for="(pro,key) in products " :key="key" >
             <a class="link" style="text-decoration:none" target="_blank" :href="'#/producto/' + key"  >
@@ -25,7 +25,7 @@
             <img style="width: 33px;height: 33px;" src="buttons/next.png">
           </template>
         </VueSlickCarousel>
-        
+        </div>
 
 
       </div>
