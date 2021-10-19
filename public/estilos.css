@@ -2075,6 +2075,15 @@ padding: 10px;
     padding-top: 50px;
     background-color: lightblue;
 }
+.contImgInst{
+    width: 100%;
+    height: 100%;
+    background-color: lightcoral;
+}
+.imgMame{
+    object-fit: cover;
+    background-image: url("areaPharma/Foto_MameFarmaUSO.jpg");
+}
 .Contacto{
     width:100%;
     height: 150px;
