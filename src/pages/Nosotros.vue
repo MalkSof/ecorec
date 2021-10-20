@@ -21,9 +21,8 @@
 
                 </div>
                 <div class="col-md-4 col-12">
-                  <div class="contImgInst">
-                    <div class="imgMame"></div>
-                  <!--<img src="areaPharma/Foto_MameFarmaUSO.jpg" alt="foto_mame">-->
+                  <div class="imgMame">
+                    <img src="Foto_mameInst.jpg" alt="imagen inst" style="width: inherit; height: inherit;">
                   </div>
                 </div>
                 

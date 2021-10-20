@@ -2078,11 +2078,12 @@ padding: 10px;
 .contImgInst{
     width: 100%;
     height: 100%;
-    background-color: lightcoral;
 }
 .imgMame{
+    width: 100%;
+    height: 100%; 
     object-fit: cover;
-    background-image: url("areaPharma/Foto_MameFarmaUSO.jpg");
+    /*background-image: url("Foto_mameInst.jpg");*/
 }
 .Contacto{
     width:100%;
