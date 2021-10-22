@@ -22,7 +22,7 @@
                 </div>
                 <div class="col-md-4 col-12">
                   <div class="imgMame">
-                    <img src="Foto_mameInst.jpg" alt="imagen inst" style="width: inherit; height: inherit;">
+                    <img src="Foto_mameInst.jpg" alt="imagen inst" style="width: inherit; height: inherit; object-fit: cover">
                   </div>
                 </div>
                 
