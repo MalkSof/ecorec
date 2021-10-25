@@ -65,7 +65,7 @@
     font-style: normal;
     font-weight: lighter;
     font-size: 30px;
-    color: rgba(57,57,57,1);
+    color: rgba(28,80,120,1);
 }
 #producto{
     overflow: hidden;
@@ -91,7 +91,7 @@
     font-size: 1.2rem;
     color: #212529;
     text-align: left;
-    background-color:rgb(8, 131, 212);
+    background-color:#1a9ed9;
     border: 0;
     border-radius: 0;
     overflow-anchor: none;
@@ -1973,7 +1973,7 @@ padding: 10px;
     height: 40px;
     width: 100%;
     background-color: rgba(26,158,217,1);
-    border-radius: 27px;
+    border-radius: 10px;
     padding: 8px;
     margin: 10px;
 }

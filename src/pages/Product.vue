@@ -17,7 +17,7 @@
           
           <div class="accordion-item">
             <h2 class="accordion-header accordion-header2">
-                PRODUCTOS
+                Productos
             </h2>
           </div>
 
