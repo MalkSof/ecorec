@@ -16,7 +16,7 @@
           
           
           <div class="accordion-item">
-            <h2 class="accordion-header accordion-header2">
+            <h2 class="accordion-header accordion-header2" style="font-size: 36px">
                 Productos
             </h2>
           </div>
@@ -138,7 +138,7 @@
       <div class="col-sm-6 col-12">
         <img id="FOTOA2" style="height: 550px; max-width: 100%;   border: 1px solid rgb(209, 209, 209);" :src="imagenDefault" />
         <div style="margin-top: 10px;">
-        <img style="'width: 100px;  margin-right:10px; border-radius: 10px; height: 100px; background-image: url('+img+ ');  background-position:center; '" v-for="(img,key) in productoSeleccionado.imagenes" @click="establecerImagen(key)" :src="img"   :key="img" />
+        <img style="'width: 100px;  margin-right:10px; border-radius: 10px; height: 100px; background-image: url('+img+ ');  background-position:center;  border: 1px solid #9f9f9f;'" v-for="(img,key) in productoSeleccionado.imagenes" @click="establecerImagen(key)" :src="img"   :key="img" />
         </div>
       </div>
 

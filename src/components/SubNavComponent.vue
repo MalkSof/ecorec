@@ -61,15 +61,11 @@
                         </div>
                         <div class="textoTitulosFoot">
                             <img id="Group_45" src="Group_45.png">
-                            Servicios
+                            Nosotrs
                         </div>
                         <div class="textoTitulosFoot">
                             <img id="Group_45" src="Group_45.png">
-                            Trazabilidad
-                        </div>
-                        <div class="textoTitulosFoot">
-                            <img id="Group_45" src="Group_45.png">
-                            Novedades
+                            Productos
                         </div>
                         <div class="textoTitulosFoot">
                             <img id="Group_45" src="Group_45.png">
@@ -103,12 +99,12 @@
                             Llamenos
                         </div>
                         <div class="textoDirec">
-                            +5411 4652 4230 / 4454 5877
+                          +54 11 46524230
                         </div>
                         <div class="textoDirec">
-                            +5411 4655 1865
+                          +54 911 58909935
                         </div><br><br>
-                        <img id="Group_53" src="Group_53.png" style="aling">
+                       <a href="https://www.linkedin.com/company/servicio-eco-rec/"> <img id="Group_53" src="Group_53.png" style="aling"></a>
                     </div>
                 </div>
             </div>
