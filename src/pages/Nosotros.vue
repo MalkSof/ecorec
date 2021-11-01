@@ -1,7 +1,7 @@
 <template>
     <div id="Nosotros">
       <NavComponent></NavComponent>
-      <div id="producto">
+      <div id="nosotros">
         Nosotros
       </div>
       <br>
@@ -12,6 +12,20 @@
           <div class="col-md-9 col-10">
             <div class="container">
               <div class="row">
+                
+                <div class="col-md-4 col-12">
+                  <div class="imgMame" style="height: 25%;">
+                    <img src="logochico.png" alt="imagen inst" style="width: inherit; object-fit: cover">
+                  </div>
+                  
+                  <div class="imgMame">
+                    <img src="Foto_mameInst.jpg" alt="imagen inst" style="width: inherit; height: 100%; object-fit: cover">
+                  </div>
+                  <br>
+                  <br>
+                  <img id="Group_44" class="imag" src="Group_44.png" style="padding-right: 15%;">
+                  <img id="Group_42" class="imag" src="Group_42.png">
+                </div>
                 <div class="col-md-8 col-12" style="text-align: left;">
                   Ecorec es una empresa con 40 años de trayectoria ubicada en Buenos Aires, Argentina.<br>
                   Originalmente siendo proveedor de servicio de lavandería especial para las industrias automotrices y farmacéuticas entre otras, ampliamos nuestra oferta con la elaboración de prendas y productos de primer nivel para diferentes industrias y el público en general.<br>
@@ -19,11 +33,6 @@
                   Nuestros productos fueron desarrollados en conjunto con empresas internacionales, quienes nos proveen de toda la información y el material necesario para elaborarlos, y el aporte invaluable de nuestros clientes.<br>
                   Ponemos a su disposición toda nuestra atención para ayudarlo en lo que necesite.<br>
 
-                </div>
-                <div class="col-md-4 col-12">
-                  <div class="imgMame">
-                    <img src="Foto_mameInst.jpg" alt="imagen inst" style="width: inherit; height: inherit; object-fit: cover">
-                  </div>
                 </div>
                 
               </div>
