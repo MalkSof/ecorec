@@ -2,11 +2,10 @@
   <div>
     <NavComponent></NavComponent>
     <br>
-    <div id="producto">
-
-    Productos
-
+    <div class="nosotrosFinal">
+        <img src="prodcutos.jpg" alt="productos" style="width: inherit; height: inherit; object-fit: cover">
     </div>
+    <br>
     <div class="container">
 
   <br>

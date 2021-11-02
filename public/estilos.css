@@ -97,6 +97,14 @@
     padding-bottom: 20px;
 
 }
+.nosotrosFinal{
+    height: 100px;
+    width: 100%;
+    line-height: 72px;
+    margin-top: -10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 /*MIO*/
 .accordion-header2{
     position: relative;

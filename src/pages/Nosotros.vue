@@ -1,8 +1,9 @@
 <template>
     <div id="Nosotros">
       <NavComponent></NavComponent>
-      <div id="nosotros">
-        Nosotros
+      
+      <div class="nosotrosFinal">
+        <img src="nosotrosBold.jpg" alt="Nosotros" style="width: inherit; height: inherit; object-fit: cover">
       </div>
       <br>
       <br>
