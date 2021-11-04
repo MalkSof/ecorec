@@ -119,6 +119,19 @@
     border-radius: 0;
     overflow-anchor: none;
 }
+.accordion-index{
+    position: relative;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    font-size: 1.2rem;
+    color: #212529;
+    text-align: left;
+    background-color: rgb(33, 181, 240);
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+}
 #Capa_1 {
     position: absolute;
     width: 240.786px;
