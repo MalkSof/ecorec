@@ -19,13 +19,7 @@
                   Productos
               </h2>
             </div>
-            <!--FARMACEUTICO-->
             <div>
-              <div class="accordion-item">
-                <h2 class="accordion-header accordion-index" style="font-size: medium">
-                    FARMACÉUTICO
-                </h2>
-              </div>
 
 
           <!--1-->
@@ -101,6 +95,7 @@
           </div>
 
 
+      </div>
       </div>
       
 
@@ -224,12 +219,13 @@
         Múltiples medios de pago <img src="card.png">
       </div>
     </div>
-    <a href="https://api.whatsapp.com/send?phone=5491158909935&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n" class="float" target="_blank">
+    <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
       <i class="fa fa-whatsapp my-float"></i>
     </a>
 
     <SubNavComponent></SubNavComponent>
   </div>
+
 </template>
 
 <style scoped>
