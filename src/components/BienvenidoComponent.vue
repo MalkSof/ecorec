@@ -116,16 +116,14 @@
     <div id="Group_56">
       <div class="container">
         <div class="row" style="--bs-gutter-x: -4.5rem;">
-
-            <div class="col-md-3 col-12">
-                <img class="confiamos"  src="n_280px-Pfizersvg.png" srcset="n_280px-Pfizersvg.png 1x, n_280px-Pfizersvg@2x.png 2x">
-            </div>
-            <div class="col-md-3 col-12">
-              <img class="confiamos"  style="width: 175px;
-                  margin-top: 50px;"  src="Laboratorios_Richmond.png" >
-            </div>
+          <div class="col-md-6 col-12">
+            <img class="confiamos"  src="n_280px-Pfizersvg.png" srcset="n_280px-Pfizersvg.png 1x, n_280px-Pfizersvg@2x.png 2x">
+          </div>
+          <div class="col-md-6 col-12">
+            <img class="confiamos"  style="width: 175px; margin-top: 50px;"  src="Laboratorios_Richmond.png" >
           </div>
         </div>
+      </div>
     </div>
 
   </div>

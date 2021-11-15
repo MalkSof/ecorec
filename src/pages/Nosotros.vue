@@ -1,8 +1,9 @@
 <template>
     <div id="Nosotros">
       <NavComponent></NavComponent>
-      <div id="producto">
-        Nosotros
+      
+      <div class="nosotrosFinal">
+        <img src="nosotrosBold.jpg" alt="Nosotros" style="width: inherit; height: inherit; object-fit: cover">
       </div>
       <br>
       <br>
@@ -12,6 +13,20 @@
           <div class="col-md-9 col-10">
             <div class="container">
               <div class="row">
+                
+                <div class="col-md-4 col-12">
+                  <div class="imgMame" style="height: 25%;">
+                    <img src="logochico.png" alt="imagen inst" style="width: inherit; object-fit: cover">
+                  </div>
+                  
+                  <div class="imgMame">
+                    <img src="Foto_mameInst.jpg" alt="imagen inst" style="width: inherit; height: 100%; object-fit: cover">
+                  </div>
+                  <br>
+                  <br>
+                  <img id="Group_44" class="imag" src="Group_44.png" style="padding-right: 15%;">
+                  <img id="Group_42" class="imag" src="Group_42.png">
+                </div>
                 <div class="col-md-8 col-12" style="text-align: left;">
                   Ecorec es una empresa con 40 años de trayectoria ubicada en Buenos Aires, Argentina.<br>
                   Originalmente siendo proveedor de servicio de lavandería especial para las industrias automotrices y farmacéuticas entre otras, ampliamos nuestra oferta con la elaboración de prendas y productos de primer nivel para diferentes industrias y el público en general.<br>
@@ -19,11 +34,6 @@
                   Nuestros productos fueron desarrollados en conjunto con empresas internacionales, quienes nos proveen de toda la información y el material necesario para elaborarlos, y el aporte invaluable de nuestros clientes.<br>
                   Ponemos a su disposición toda nuestra atención para ayudarlo en lo que necesite.<br>
 
-                </div>
-                <div class="col-md-4 col-12">
-                  <div class="imgMame">
-                    <img src="Foto_mameInst.jpg" alt="imagen inst" style="width: inherit; height: inherit; object-fit: cover">
-                  </div>
                 </div>
                 
               </div>
@@ -66,17 +76,11 @@
       <div id="Group_56">
       <div class="container">
         <div class="row" style="--bs-gutter-x: -4.5rem;">
-          <div class="col-md-3 col-12">
-            <img class="confiamos" src="n_024px-Ford_Motor_Company_Log.png" srcset="n_024px-Ford_Motor_Company_Log.png 1x, n_024px-Ford_Motor_Company_Log@2x.png 2x">
-          </div>
-          <div class="col-md-3 col-12">
+          <div class="col-md-6 col-12">
             <img class="confiamos"  src="n_280px-Pfizersvg.png" srcset="n_280px-Pfizersvg.png 1x, n_280px-Pfizersvg@2x.png 2x">
           </div>
-          <div class="col-md-3 col-12">
+          <div class="col-md-6 col-12">
             <img class="confiamos"  style="width: 175px; margin-top: 50px;"  src="Laboratorios_Richmond.png" >
-          </div>
-          <div class="col-md-3 col-12">
-            <img class="confiamos" src="Volkswagen_logo_2019svg.png" srcset="Volkswagen_logo_2019svg.png 1x, Volkswagen_logo_2019svg@2x.png 2x">
           </div>
         </div>
       </div>
@@ -93,6 +97,9 @@
         </div>
       </div>
       </div>
+      <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+      <i class="fa fa-whatsapp my-float"></i>
+      </a>
       <SubNavComponent></SubNavComponent>
     </div>
 </template>

@@ -2,11 +2,10 @@
   <div>
     <NavComponent></NavComponent>
     <br>
-    <div id="producto">
-
-    Productos
-
+    <div class="nosotrosFinal">
+        <img src="prodcutos.jpg" alt="productos" style="width: inherit; height: inherit; object-fit: cover">
     </div>
+    <br>
     <div class="container">
 
   <br>
@@ -15,11 +14,18 @@
         <div class="accordion" id="accordionExample">
           
           
-          <div class="accordion-item">
-            <h2 class="accordion-header accordion-header2" style="font-size: 36px">
-                Productos
-            </h2>
-          </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header accordion-header2" style="font-size: x-large">
+                  Productos
+              </h2>
+            </div>
+            <!--FARMACEUTICO-->
+            <div>
+              <div class="accordion-item">
+                <h2 class="accordion-header accordion-index" style="font-size: medium">
+                    FARMACÉUTICO
+                </h2>
+              </div>
 
 
           <!--1-->
@@ -265,33 +271,7 @@ export default {
               "slidesToShow": 5,
               "slidesToScroll": 1,
               "prevArrow":" <img class='a-left control-c prev slick-prev' src='logochico.png'>",
-              "nextArrow":"<img class='a-right control-c next slick-next' src='logochico.png'>",
-              "responsive": [
-                {
-                  "breakpoint": 1024,
-                  "settings": {
-                    "slidesToShow": 3,
-                    "slidesToScroll": 3,
-                    "infinite": true,
-                    "dots": true
-                  }
-                },
-                {
-                  "breakpoint": 600,
-                  "settings": {
-                    "slidesToShow": 2,
-                    "slidesToScroll": 2,
-                    "initialSlide": 2
-                  }
-                },
-                {
-                  "breakpoint": 480,
-                  "settings": {
-                    "slidesToShow": 1,
-                    "slidesToScroll": 1
-                  }
-                }
-              ]
+              "nextArrow":"<img class='a-right control-c next slick-next' src='logochico.png'>"
             },
         myJson: json,
         productoSeleccionado: [],
