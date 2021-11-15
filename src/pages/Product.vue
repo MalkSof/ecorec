@@ -26,12 +26,15 @@
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Equipo Área Estéril Pharma
+                FARMACÉUTICO
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                Confeccionado de polyester con hilado de carbono al 2%. Este tipo de prenda con características antiestática se utiliza en cabinas limpias de producción pharma.<br><a class="link" style="text-decoration:none" target="_blank" href="#/producto/equipo-area-esteril-pharma"> Ver producto</a>
+                <a href="/#/producto/equipo-area-esteril-pharma">Equipo área estéril</a> <br>
+                <a href="/#/producto/cofia-capuchas">Cofia / Capuchas </a><br>
+                <a href="/#/producto/barbijos">Cubrebotas</a><br>
+                <a href="/#/producto/mameluco-antiestatico"> Mameluco </a><br>
               </div>
             </div>
           </div>
@@ -39,38 +42,38 @@
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingTwo">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Ambos para atención médica
+                AUTOMOTRIZ
               </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                Ambos confeccionados de polyester e hilado de carbono al 2%. Seguridad y confort a su disposición. <a class="link" style="text-decoration:none" target="_blank" href="#/producto/ambos-para-atencion-medica"> Ver producto</a>
-              </div>
+                <a href="/#/producto/mameluco-antiestatico">Ambo antiestático</a>
+                </div>
             </div>
           </div>
           <!--3-->
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingThree">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Film antibacterial de cobre
+                MEDICINA
               </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                Lamina antibacterial con nano partículas de cobre. Superficie autosanitizante.<br><a class="link" style="text-decoration:none" target="_blank" href="#/producto/film-antibacterial"> Ver producto</a>
-              </div>
+                <a href="/#/producto/ambos-para-atencion-medica">Ambo atención médica</a>
+               </div>
             </div>
           </div>
           <!--4-->
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingFour">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                Cofia/Capuchas
+                ELECTRÓNICA
               </button>
             </h2>
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                Capucha/cofia confeccionada de polyester con hilado de carbono al 2%. Este tipo de prenda con características antiestática se utiliza en cabinas limpias de producción pharma. Diferentes modelos a pedido. <br><a class="link" style="text-decoration:none" target="_blank" href="#/producto/cofia-capuchas"> Ver producto</a>
+                <a href="/#/producto/mameluco-antiestatico"> Mameluco Antiestático</a>
               </div>
             </div>
           </div>
@@ -79,58 +82,19 @@
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingFive">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                Botas
+                SEGURIDAD Y PROTECCIÓN
               </button>
             </h2>
             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                Cubrebotas confeccionados de polyester con hilado de carbono al 2%. Este tipo de prenda con características antiestática se utiliza en cabinas limpias de producción pharma. Diferentes modelos a pedido. <br><a class="link" style="text-decoration:none" target="_blank" href="#/producto/botas"> Ver producto</a>
+                <a href="/#/producto/fogmaster">Fogmaster</a> <br>
+                <a href="/#/producto/barbijos">Cubrebocas carbón 50</a>
+               <a href="/#/producto/film-antibacterial"> Film antimicrobial de cobre</a>
               </div>
             </div>
           </div>
 
 
-        <!--6-->
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingSix">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                Mameluco antiestático
-              </button>
-            </h2>
-            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                Equipos para industria electrónica, cabinas de pintura u otros usos. Confeccionados de polyester e hilado de carbono al 2 %. Propiedades antiestáticas, no desprende pelusas. <br><a class="link" style="text-decoration:none" target="_blank" href="#/producto/mameluco-antiestatico"> Ver producto</a>
-              </div>
-            </div>
-          </div>
-
-          <!--7-->
-      <div class="accordion-item">
-          <h2 class="accordion-header" id="headingSeven">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-              Cubrebocas CARBON 50
-            </button>
-          </h2>
-          <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              Cubrebocas con hilado de carbono. Material antiestático. No acumula partículas. Reutilizable. <br><a class="link" style="text-decoration:none" target="_blank" href="#/producto/barbijos"> Ver producto</a>
-            </div>
-          </div>
-        </div>
-
-        <!--8-->
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingEight">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-              Fogmaster
-            </button>
-          </h2>
-          <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              Esterilizador de ambientes en base a inyección de peróxido de hidrogeno. Elimina el 99,9% de los virus y bacterias en el ambiente. <br><a class="link" style="text-decoration:none" target="_blank" href="#/producto/fogmaster"> Ver producto</a>
-            </div>
-          </div>
-        </div>
       </div>
       
 
@@ -254,7 +218,7 @@
         Múltiples medios de pago <img src="card.png">
       </div>
     </div>
-    <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+    <a href="https://api.whatsapp.com/send?phone=5491158909935&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n" class="float" target="_blank">
       <i class="fa fa-whatsapp my-float"></i>
     </a>
 
@@ -301,7 +265,33 @@ export default {
               "slidesToShow": 5,
               "slidesToScroll": 1,
               "prevArrow":" <img class='a-left control-c prev slick-prev' src='logochico.png'>",
-              "nextArrow":"<img class='a-right control-c next slick-next' src='logochico.png'>"
+              "nextArrow":"<img class='a-right control-c next slick-next' src='logochico.png'>",
+              "responsive": [
+                {
+                  "breakpoint": 1024,
+                  "settings": {
+                    "slidesToShow": 3,
+                    "slidesToScroll": 3,
+                    "infinite": true,
+                    "dots": true
+                  }
+                },
+                {
+                  "breakpoint": 600,
+                  "settings": {
+                    "slidesToShow": 2,
+                    "slidesToScroll": 2,
+                    "initialSlide": 2
+                  }
+                },
+                {
+                  "breakpoint": 480,
+                  "settings": {
+                    "slidesToShow": 1,
+                    "slidesToScroll": 1
+                  }
+                }
+              ]
             },
         myJson: json,
         productoSeleccionado: [],
