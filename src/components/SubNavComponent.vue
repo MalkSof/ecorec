@@ -61,7 +61,7 @@
                         </div>
                         <div class="textoTitulosFoot">
                             <img id="Group_45" src="Group_45.png">
-                            Nosotrs
+                            Nosotros
                         </div>
                         <div class="textoTitulosFoot">
                             <img id="Group_45" src="Group_45.png">

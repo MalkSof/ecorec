@@ -88,7 +88,7 @@
             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <a href="/#/producto/fogmaster">Fogmaster</a> <br>
-                <a href="/#/producto/barbijos">Cubrebocas carbón 50</a>
+                <a href="/#/producto/barbijos">Cubrebocas carbón 50</a><br>
                <a href="/#/producto/film-antibacterial"> Film antimicrobial de cobre</a>
               </div>
             </div>
@@ -155,7 +155,7 @@
                 </div>
               </div>
               <div class="col-md-6 col-12">
-                <input type="email" class="form-control" id="empresa" placeholder="empresa">
+                <input  class="form-control" id="empresa" placeholder="empresa">
               </div>
             </div>
           </div>
@@ -219,7 +219,7 @@
         Múltiples medios de pago <img src="card.png">
       </div>
     </div>
-    <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+    <a href="https://api.whatsapp.com/send?phone=5491158909935&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n." class="float" target="_blank">
       <i class="fa fa-whatsapp my-float"></i>
     </a>
 
@@ -229,6 +229,11 @@
 </template>
 
 <style scoped>
+
+.accordion-body{
+  text-align: left;
+}
+
 .link{
 
 
