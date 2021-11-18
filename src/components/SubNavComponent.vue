@@ -48,9 +48,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 col-12" style="margin-top: 20px;">
-                        <div>
+
                             <img src="logoFooter.png" style="padding: 20px;">
-                        </div>
+
                         <img id="Group_44" class="imag" src="Group_44.png">
                         <img id="Group_42" class="imag" src="Group_42.png">
                     </div>

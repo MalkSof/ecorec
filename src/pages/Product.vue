@@ -272,7 +272,8 @@ export default {
               "slidesToShow": 5,
               "slidesToScroll": 1,
               "prevArrow":" <img class='a-left control-c prev slick-prev' src='logochico.png'>",
-              "nextArrow":"<img class='a-right control-c next slick-next' src='logochico.png'>"
+              "nextArrow":"<img class='a-right control-c next slick-next' src='logochico.png'>",
+
             },
         myJson: json,
         productoSeleccionado: [],

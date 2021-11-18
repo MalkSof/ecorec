@@ -1,6 +1,6 @@
 <template>
 
-    <div id="nav">
+    <div class="container" id="nav">
       <div class="row">
         <div class="col ">
           <router-link to="/" > <img  class="float-start" src="logochico.png"/>
@@ -8,9 +8,9 @@
 
 
         </div>
-        <div class="col" >
+        <div class="col" style="display: flex; justify-content: end" >
 
-          <div class="float-end" style="margin-top: 20px;">
+          <div  style="margin-top: 20px;">
 
           <router-link to="/producto/equipo-area-esteril-pharma" class="Productos">Productos</router-link>
           

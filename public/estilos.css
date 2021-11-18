@@ -1,6 +1,7 @@
 #nav{
+    margin-top: 30px;
+    margin-bottom: 30px;
     width: 100%;
-    padding: 30px;
 }
 .subtitulo{
     white-space: nowrap;
@@ -377,21 +378,15 @@
     transform: matrix(1,0,0,1,0,0);
 }
 .Productos {
-    left: 1025px;
-    top: 19.532px;
-    float: left;
-    overflow: visible;
-    width: 99px;
-    white-space: nowrap;
     text-align: center;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 15px;
     color: rgba(40,52,140,1);
     text-transform: uppercase;
     text-decoration: none;
-    margin-right: 30px;
+    margin-right: 10px;
 }
 #IMG_9955 {
     position: absolute;
@@ -464,7 +459,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: lighter;
-    font-size: 40px;
+    font-size: 35px;
     color: rgba(26,158,217,1);
 }
 #Lorem_ipsum_dolor_sit_amet_con {
@@ -1192,7 +1187,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: lighter;
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 70px;
     color: rgba(26,158,217,1);
 }
