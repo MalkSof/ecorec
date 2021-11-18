@@ -211,12 +211,12 @@
     </div>
     <div class="internacionales">
       <div class="Envos_internacionales">
-        Envíos internacionales <img src="Icon metro-airplane.png">
+        Envíos internacionales <img width="20px" src="Icon metro-airplane.png">
       </div>
     </div>
     <div class="mediosPago">
       <div class="Envos_internacionales">
-        Múltiples medios de pago <img src="card.png">
+        Múltiples medios de pago <img width="20px" src="card.png">
       </div>
     </div>
     <a href="https://api.whatsapp.com/send?phone=5491158909935&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n." class="float" target="_blank">
@@ -273,6 +273,32 @@ export default {
               "slidesToScroll": 1,
               "prevArrow":" <img class='a-left control-c prev slick-prev' src='logochico.png'>",
               "nextArrow":"<img class='a-right control-c next slick-next' src='logochico.png'>",
+              "responsive": [
+                {
+                  "breakpoint": 1024,
+                  "settings": {
+                    "slidesToShow": 3,
+                    "slidesToScroll": 3,
+                    "infinite": true,
+                    "dots": true
+                  }
+                },
+                {
+                  "breakpoint": 600,
+                  "settings": {
+                    "slidesToShow": 2,
+                    "slidesToScroll": 2,
+                    "initialSlide": 2
+                  }
+                },
+                {
+                  "breakpoint": 480,
+                  "settings": {
+                    "slidesToShow": 1,
+                    "slidesToScroll": 1
+                  }
+                }
+              ]
 
             },
         myJson: json,
