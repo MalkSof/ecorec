@@ -14,21 +14,16 @@
     color: rgba(57,57,57,1);
 }
 .subittuloProducto{
-    /* left: 50px; */
-    /* top: 1453px; */
-    /* position: absolute; */
     overflow: visible;
-    width: 89px;
-    white-space: nowrap;
-    line-height: 72px;
-    margin-top: -28.5px;
+    line-height: 1;
     text-align: left;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 15px;
     color: rgba(57,57,57,1);
-    margin-top: 1px;
+    margin: 0 auto;
+    text-align: center;
 }
 #conentedorRela {
     height: 230px;

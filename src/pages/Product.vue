@@ -31,10 +31,10 @@
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <a href="/#/producto/equipo-area-esteril-pharma">Equipo área estéril</a> <br>
-                <a href="/#/producto/cofia-capuchas">Cofia / Capuchas </a><br>
-                <a href="/#/producto/barbijos">Cubrebotas</a><br>
-                <a href="/#/producto/mameluco-antiestatico"> Mameluco </a><br>
+                <a target="_blank" href="/#/producto/equipo-area-esteril-pharma">Equipo área estéril</a> <br>
+                <a  target="_blank"  href="/#/producto/cofia-capuchas">Cofia / Capuchas </a><br>
+                <a target="_blank"  href="/#/producto/barbijos">Cubrebotas</a><br>
+                <a target="_blank"  href="/#/producto/mameluco-antiestatico"> Mameluco </a><br>
               </div>
             </div>
           </div>
@@ -47,7 +47,7 @@
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <a href="/#/producto/mameluco-antiestatico">Ambo antiestático</a>
+                <a target="_blank"  href="/#/producto/mameluco-antiestatico">Ambo antiestático</a>
                 </div>
             </div>
           </div>
@@ -60,7 +60,7 @@
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <a href="/#/producto/ambos-para-atencion-medica">Ambo atención médica</a>
+                <a target="_blank"  href="/#/producto/ambos-para-atencion-medica">Ambo atención médica</a>
                </div>
             </div>
           </div>
@@ -73,7 +73,7 @@
             </h2>
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <a href="/#/producto/mameluco-antiestatico"> Mameluco Antiestático</a>
+                <a target="_blank"  href="/#/producto/mameluco-antiestatico"> Mameluco Antiestático</a>
               </div>
             </div>
           </div>
@@ -87,9 +87,9 @@
             </h2>
             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <a href="/#/producto/fogmaster">Fogmaster</a> <br>
-                <a href="/#/producto/barbijos">Cubrebocas carbón 50</a><br>
-               <a href="/#/producto/film-antibacterial"> Film antimicrobial de cobre</a>
+                <a  target="_blank"  href="/#/producto/fogmaster">Fogmaster</a> <br>
+                <a target="_blank"  href="/#/producto/barbijos">Cubrebocas carbón 50</a><br>
+               <a target="_blank"  href="/#/producto/film-antibacterial"> Film antimicrobial de cobre</a>
               </div>
             </div>
           </div>
@@ -263,6 +263,8 @@ export default {
       return{
         settings:
             {
+
+
               "dots": false,
               "arrows": true,
               "edgeFriction": 0.35,
@@ -292,10 +294,12 @@ export default {
                   }
                 },
                 {
+
                   "breakpoint": 480,
                   "settings": {
-                    "slidesToShow": 1,
-                    "slidesToScroll": 1
+                    "slidesToShow": 2,
+                    "slidesToScroll": 2,
+
                   }
                 }
               ]
