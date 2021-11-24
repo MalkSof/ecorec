@@ -69,32 +69,42 @@
     </div>
     <div id="ContIMG">
       <div class="row">
+
           <div class="col-md-3 col-12">
+            <a target="_blank"  href="/#/producto/mameluco-antiestatico">
 	          <div id="Foto1_MameAuto">
 	            <div class="sombra">
                 INDUSTRIA AUTOMOTRIZ
               </div>
             </div>
+            </a>
           </div>
+
           <div class="col-md-3 col-12">
+            <a target="_blank" href="/#/producto/equipo-area-esteril-pharma">
             <div id="Foto1_MameFarma">
 	              <div class="sombra">
                 INDUSTRIA FARMA
                 </div>
             </div>
+            </a>
           </div>
           <div class="col-md-3 col-12">
             <div id="Foto4_MameAuto">
-	            <div class="sombra">  
-                INDUSTRIA ELECTRÓNICA
-              </div>
+              <a target="_blank"  href="/#/producto/mameluco-antiestatico">
+                <div class="sombra">
+                  INDUSTRIA ELECTRÓNICA
+                </div>
+              </a>
             </div>
           </div>
           <div class="col-md-3 col-12">
             <div id="Foto3_TrajeMedico">
+              <a target="_blank"  href="/#/producto/ambos-para-atencion-medica">
 	            <div class="sombra">
                INDUSTRIA SALUD
               </div>
+              </a>
             </div>
           </div>
       </div>
