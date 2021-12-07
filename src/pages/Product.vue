@@ -147,18 +147,18 @@
             <div class="row">
               <div class="col-md-6 col-12">
                 <div class="mb-3">
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  <input type="email" class="form-control" name="email" id="exampleFormControlInput1" placeholder="name@example.com">
                 </div>
                 <div class="mb-3">
 
                 </div>
               </div>
               <div class="col-md-6 col-12">
-                <input  class="form-control" id="empresa" placeholder="empresa">
+                <input  class="form-control" id="empresa" name="empresa" placeholder="empresa">
               </div>
             </div>
           </div>
-          <textarea class="form-control" placeholder="Tu mensaje..." id="exampleFormControlTextarea1" rows="3"></textarea>
+          <textarea class="form-control" placeholder="Tu mensaje..." name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
           <div style="padding: 10px; text-align: end;">
             <input type="submit" class="EnviarConsulta" value="Enviar">
           </div>
