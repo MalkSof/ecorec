@@ -133,7 +133,6 @@
             </li>
           </ul>
         </div>
-        <a href="Home___2.html" target="_self" style="text-decoration: none;">
           <div class="botonConsl">
             <div id="Consultar">
                 Consultar
@@ -142,8 +141,8 @@
               </svg>
             </div>
           </div>
-        </a>
-        <form action="">
+
+        <form ref="form" @submit.prevent="enviarEmail">
           <div class="container" style="padding-right: 0; padding-left: 0;">
             <div class="row">
               <div class="col-md-6 col-12">
@@ -252,6 +251,7 @@ import VueSlickCarousel from 'vue-slick-carousel'
 import 'vue-slick-carousel/dist/vue-slick-carousel.css'
 // optional style for arrows & dots
 import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
+import emailjs from "emailjs-com";
 export default {
   name: "Product",
   components: {
@@ -312,6 +312,16 @@ export default {
       }
     },
   methods: {
+    enviarEmail()
+    {
+      emailjs.sendForm('service_wvruf4v', 'template_92ccorm', this.$refs.form, 'user_L4fJED2s7LGEhb1888iWW')
+          .then((result) => {
+            alert('Mensaje enviado con exito');
+            console.log('SUCCESS!', result.text);
+          }, (error) => {
+            console.log('FAILED...', error.text);
+          });
+    },
     establecerImagen(key)
     {
       this.imagenDefault = this.productoSeleccionado["imagenes"][key];
