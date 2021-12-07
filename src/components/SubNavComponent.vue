@@ -139,6 +139,7 @@ export default {
     enviarEmail(){
       emailjs.sendForm('service_wvruf4v', 'template_teb0old', this.$refs.form, 'user_L4fJED2s7LGEhb1888iWW')
           .then((result) => {
+            alert('Mensaje enviado con exito');
             console.log('SUCCESS!', result.text);
           }, (error) => {
             console.log('FAILED...', error.text);
