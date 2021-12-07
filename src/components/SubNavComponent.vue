@@ -9,36 +9,38 @@
               Contáctanos
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-6 col-12">
+          <form ref="form" @submit.prevent="enviarEmail" >
+            <div class="row">
+              <div class="col-md-6 col-12">
 
-              <label for="nombre" id="Nombre_es">Nombre</label>
+                <label for="nombre" id="Nombre_es">Nombre</label>
 
-              <input type="text" class="input_eq" name="nombre" placeholder=" Nombre"><br><br>
+                <input type="text" class="input_eq" name="from_name" placeholder=" Nombre"><br><br>
+              </div>
+              <div class="col-md-6 col-12">
+                <label for="apellido" id="Apellido_ep">Apellido</label>
+
+                <input type="text" class="input_en" name="last_name" placeholder=" Apellido"><br><br>
+              </div>
             </div>
-            <div class="col-md-6 col-12">
-              <label for="apellido" id="Apellido_ep">Apellido</label>
+            <div class="row">
+              <div class="col-md-6 col-12">
+                <label for="email" id="Email">Email</label>
 
-              <input type="text" class="input_en" name="apellido" placeholder=" Apellido"><br><br>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6 col-12">
-              <label for="email" id="Email">Email</label>
+                <input type="email" class="input_ek" name="email" placeholder=" mail@ejemplo.com"><br><br>
+              </div>
+              <div class="col-md-6 col-12">
+                <label for="telfono" name="telefono" id="Telfono">Telefono</label>
 
-              <input type="email" class="input_ek" name="email" placeholder=" mail@ejemplo.com"><br><br>
+                <input type="text" class="input_eh" name="telfono" placeholder=" 1234567890"><br><br>
+              </div>
             </div>
-            <div class="col-md-6 col-12">
-              <label for="telfono" id="Telfono">Telefono</label>
-
-              <input type="text" class="input_eh" name="telfono" placeholder=" 1234567890"><br><br>
+            <label for="mensaje" name="message" id="Mensaje">Mensaje</label>
+            <input type="text" class="input" name="mensaje" placeholder=" Tu mensaje..."><br><br>
+            <div style="text-align: end;">
+              <input type="submit" id="Enviar" value="Enviar">
             </div>
-          </div>
-          <label for="mensaje" id="Mensaje">Mensaje</label>
-          <input type="text" class="input" name="mensaje" placeholder=" Tu mensaje..."><br><br>
-          <div style="text-align: end;">
-            <input @click="enviarEmail" type="submit" id="Enviar" value="Enviar">
-          </div>
+          </form>
         </div>
 
 
@@ -114,9 +116,8 @@
 
 <script>
 
+import emailjs from 'emailjs-com';
 
-
-import axios from "axios";
 
 export default {
   name: "SubNavComponent",
@@ -136,7 +137,16 @@ export default {
   methods:
   {
     enviarEmail(){
+      emailjs.sendForm('service_wvruf4v', 'template_teb0old', this.$refs.form, 'user_L4fJED2s7LGEhb1888iWW')
+          .then((result) => {
+            console.log('SUCCESS!', result.text);
+          }, (error) => {
+            console.log('FAILED...', error.text);
+          });
 
+
+
+    /*
       var data = JSON.stringify(  {"personalizations": [{"to": [{"email": "nicolasuzalcman@gmail.com"}]}],"from":
             {"email": "nicozalc@gmail.com"},"subject": "Sending with SendGrid is Fun","content":
             [{"type": "text/plain", "value": "and easy to do anywhere, even with cURL"}]});
@@ -147,7 +157,7 @@ export default {
         headers: {
           'Accept': 'application/json',
           'Content-Type': 'application/json',
-          'Authorization': 'Bearer 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'
+          'Authorization': 'Bearer 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'
         },
         data : data
       };
