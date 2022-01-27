@@ -2,10 +2,10 @@
 
 <template>
   <div id="app">
-    <h1>Pagina dada de baja </h1>
-    <!--
+   Pagina dada de baja
+
     <router-view></router-view>
-    -->
+
   </div>
 </template>
 
