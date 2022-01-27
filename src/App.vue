@@ -2,7 +2,7 @@
 
 <template>
   <div id="app">
-    <h1>Pagina dada de baja por falta de pago</h1>
+    <h1>Pagina dada de baja </h1>
     <!--
     <router-view></router-view>
     -->
