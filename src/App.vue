@@ -2,10 +2,8 @@
 
 <template>
   <div id="app">
-   Pagina dada de baja
 
     <router-view></router-view>
-
   </div>
 </template>
 
