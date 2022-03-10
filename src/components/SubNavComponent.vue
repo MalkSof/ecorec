@@ -32,11 +32,11 @@
               <div class="col-md-6 col-12">
                 <label for="telfono" name="telefono" id="Telfono">Telefono</label>
 
-                <input type="text" class="input_eh" name="telfono" placeholder=" 1234567890"><br><br>
+                <input type="text" class="input_eh" name="telefono" placeholder=" 1234567890"><br><br>
               </div>
             </div>
             <label for="mensaje" name="message" id="Mensaje">Mensaje</label>
-            <input type="text" class="input" name="mensaje" placeholder=" Tu mensaje..."><br><br>
+            <input type="text" class="input" name="message" placeholder=" Tu mensaje..."><br><br>
             <div style="text-align: end;">
               <input type="submit" id="Enviar" value="Enviar">
             </div>
