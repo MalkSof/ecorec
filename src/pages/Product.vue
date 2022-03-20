@@ -3,7 +3,7 @@
     <NavComponent></NavComponent>
     <br>
     <div class="nosotrosFinal">
-        <img src="prodcutos.jpg" alt="productos" style="width: inherit; height: inherit; object-fit: cover">
+        <img src="/prodcutos.jpg" alt="productos" style="width: inherit; height: inherit; object-fit: cover">
     </div>
     <br>
     <div class="container">
@@ -194,10 +194,10 @@
         </a>
         </div>
         <template class="prev" #prevArrow>
-          <img style="width: 33px;height: 33px;" src="buttons/after.png">
+          <img style="width: 33px;height: 33px;" src="/buttons/after.png">
         </template>
         <template #nextArrow>
-          <img style="width: 33px;height: 33px;" src="buttons/next.png">
+          <img style="width: 33px;height: 33px;" src="/buttons/next.png">
         </template>
       </VueSlickCarousel>
     <div class="row">
@@ -210,12 +210,12 @@
     </div>
     <div class="internacionales">
       <div class="Envos_internacionales">
-        Envíos internacionales <img width="20px" src="Icon metro-airplane.png">
+        Envíos internacionales <img width="20px" src="/Icon metro-airplane.png">
       </div>
     </div>
     <div class="mediosPago">
       <div class="Envos_internacionales">
-        Múltiples medios de pago <img width="20px" src="card.png">
+        Múltiples medios de pago <img width="20px" src="/card.png">
       </div>
     </div>
     <a href="https://api.whatsapp.com/send?phone=5491158909935&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n." class="float" target="_blank">

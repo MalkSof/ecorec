@@ -50,10 +50,10 @@
                 <div class="row">
                     <div class="col-md-3 col-12" style="margin-top: 20px;">
 
-                            <img src="logoFooter.png" style="padding: 20px;">
+                            <img src="/logoFooter.png" style="padding: 20px;">
 
-                        <img id="Group_44" class="imag" src="Group_44.png">
-                        <img id="Group_42" class="imag" src="Group_42.png">
+                        <img id="Group_44" class="imag" src="/Group_44.png">
+                        <img id="Group_42" class="imag" src="/Group_42.png">
                     </div>
                     <div class="col-md-3 col-12" style="margin-top: 20px;"> 
                         <div class="textoTitulosFoot">
@@ -105,7 +105,7 @@
                         <div class="textoDirec">
                           +54 911 58909935
                         </div><br><br>
-                       <a href="https://www.linkedin.com/company/servicio-eco-rec/"> <img id="Group_53" src="Group_53.png" style="aling"></a>
+                       <a href="https://www.linkedin.com/company/servicio-eco-rec/"> <img id="Group_53" src="/Group_53.png" style="aling"></a>
                     </div>
                 </div>
             </div>

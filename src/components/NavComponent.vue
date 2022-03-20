@@ -3,7 +3,7 @@
     <div class="container" id="nav">
       <div class="row">
         <div class="col ">
-          <router-link to="/" > <img  class="float-start" src="logochico.png"/>
+          <router-link to="/" > <img  class="float-start" src="/logochico.png"/>
           </router-link>
 
 
